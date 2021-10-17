@@ -128,11 +128,6 @@ body{
 .stat{
     background: #fa9806;
 }
-#glimpses{
-    height: 500px;
-    object-fit: cover;
-}
-
 .stat h3{
     font-size: 3vw;
 }
