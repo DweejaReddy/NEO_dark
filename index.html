@@ -16,16 +16,19 @@
     <link rel="stylesheet" href="./scroll-animation.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <title>NEO</title>
 
 </head>
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0 mx-0 px-0 sticky-top showcase-top">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0 sticky-top"data-aos="fade-down"
+    data-aos-duration="2000">
       <a href="https://www.ecellvnit.org/" class="navbar-brand">
       <img class="d-none d-lg-block ml-3" src="images/E-Cell_white.png" alt="ecell" width="150px">
       <img class="d-sm d-lg-none ml-3" src="images/E-Cell_white.png" alt="ecell" width="100px"></a>
@@ -37,65 +40,103 @@
         aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">HOME <img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+        <ul class="navbar-nav ml-3 ">
+          <li class="nav-item d-none d-lg-block">
+            <a href="#home" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3 arrow1"></i></a>
           </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">ABOUT US <img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+          <li class="nav-item d-lg-none">
+            <a href="#home_mob" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
           </li>
-          <li class="nav-item">
-            <a href="#struct" class="nav-link">STRUCTURE<img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+          <li class="nav-item d-none d-lg-block">
+            <a href="#about" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
           </li>
-          <li class="nav-item">
-            <a href="#glimpses" class="nav-link">GLIMPSES<img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+          <li class="nav-item d-lg-none">
+            <a href="#about_mob" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
           </li>
+          <li class="nav-item d-none d-lg-block">
+           <a href="#struct" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a href="#struct_mob" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+           </li>
           <li class="nav-item">
-            <a href="#faqs" class="nav-link">FAQS<img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+            <a href="#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
           </li>
           
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">CONTACT <img src="images/right_arrow.png" alt="" width="25px" class="d-lg-none"></a>
+          <li class="nav-item mr-md-5">
+            <a href="#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
           </li>
         </ul>
+        <li class="nav-item ml-5 d-none d-lg-block">
+          <a class="btn btn-dark bg btn1 btn" href="#" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li>
+        <li class="nav-item ml-3 d-none d-lg-block">
+          <a class="btn btn-dark bg  btn2 btn" href="#" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li>
       </div>
     </nav>
     <!-- HOME -->
-    <section class="container-fluid " id="home">
-      <div class="row align-items-center">
-        <div class="col-lg-6 img-fluid img-responsive showcase-left"><img class="d-none d-lg-block ml-5 col-lg-10" src="images/neo_black_full.png" alt="" width="400px">
-          <div class="text-center"><img  class="d-sm d-lg-none" src="images/neo_black_full.png" alt="" width = "300px"></div>
-          <div class="heading3 text-center  showcase-right1">Awaken the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
-          <div class="para text-center" >National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th std to nurture and test their entrepreneurial skills. We nurture:
-          </div>
-          
-
-          <div class="para2 text-center">Basic Entrepreneurial Concepts |Value Proposition|Finances|Public Speaking|Logical Analytics|English Proficiency</div>
-          <div class="text-center align-items-end">
-            <a class="btn btn-dark bg btn mt-3  ml-md-3 btn1 btn-lg sticky" href="#" target="_blank" role="button">REGISTER<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+    <section class="container-fluid d-none d-lg-block" id="home">
+      <div class="row">
+        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/neo_black_full.png" alt="" width="400px">
+          <div><img  class="d-sm d-lg-none" src="images/neo_black_full.png" alt="" width = "300px"></div>
+          <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
+          <blockquote class="para style="opacity: 0.8;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
+          </blockquote>
+      
+          <div class="text-center align-items-end d-none d-lg-block">
+            <a class="btn btn-dark bg showcase-left  mt-4 mr-md-3  btn1 btn" href="#" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg></a>
+            <a class="btn btn-dark bg btn mt-4 mr-md-5 btn2 btn showcase-right1" href="#" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-          <a class="btn btn-dark bg  mt-3 ml-md-5 btn1 btn-lg" href="#" target="_blank" role="button">DOWNLOAD BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-          </svg></a></div>
+          </div>
         </div>
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6 mr-5 showcase-right">
+          <img class="img-fluid d-none d-lg-block align-items-end" src="images/home_bg.svg" height="100vh" alt="vector_entrepreneur"/>
+        </div>
       </div>
     </section>
 
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    
+    <!-- HOME MOBILE -->
+    <section class="container-fluid d-lg-none d-block" id="home_mob">
+      <div>
+        <img src="images/home_bg.svg" data-aos="fade-right" data-aos-duration="1000" alt="" style="margin-bottom: -60px;" >
+      </div>
+      <div class="text-center">
+        <img src="images/neo_black_full1.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="100px" >
+      </div>
+      <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
+
+      <li class="nav-item pt-4 text-center">
+        <a class="btn btn-dark bg btn1 btn mr-1" data-aos="fade-right" data-aos-duration="1000" href="#" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></a>
+        <a class="btn btn-dark bg  btn2 btn" data-aos="fade-left" data-aos-duration="1000" href="#" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></a>
+      </li>
+    </section>
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg d-none d-md-block" id="btn-back-to-top">
       <i class="fas fa-arrow-up"></i>
     </button>
 
 
     <!-- ABOUT SECTION -->
-    <section class="container" id="about">
-      <div class="heading text-center my-5">ABOUT</div>
+    <section class="container d-none d-lg-block " id="about">
+      <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
       <div class="row align-items-center mx-5 my-5">
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-sm-3 col-md-5 col-lg-4 align-items-center my-5">
           <div class="text-center">
-            <div class="showcase-left">
+            <div data-aos="zoom-in-up">
             <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px"></div> 
           </div>
         </div>
@@ -104,29 +145,115 @@
 
         <div class="col-sm-1 col-md-1"></div>
         <div class="col-sm-3 col-md-5 align-items-center my-5 order-md-2 order-sm-1">
-          <div class="text-center showcase-right">
+          <div class="text-center" data-aos="zoom-in-up">
             <img class="d-sm-3 d-lg-6" id="pic2" src="images/neo_black_full.png" alt="" width="350px"></div>
         </div>
-        <div class="col-md-6  text-center para text-md-right order-md-1 order-sm-2"><span class="quote">"Young minds are less biased and have higher risk-taking capabilities"</span>
+        <div class="col-md-6  text-center para order-md-1 order-sm-2"><span class="quote">"Young minds are less biased and have higher risk-taking capabilities"</span>
           Let us nurture them in the right direction.
          With this motive, National Entrepreneurship Olympiad was launched in the year 2018 aiming at fostering the growth of students and building an entrepreneurial mindset. It will provide students with the requisite exposure which is otherwise unavailable to school students. NEO is hence synonymous with a ladder that will help students enlighten them in an unexplored domain of startups and entrepreneurship.   
          </div>
       </div>
     </section>
 
-<!-- Competition Structure -->
-    <section id="struct">
-      <div class="heading text-center py-0">OLYMPIAD STRUCTURE</div>
-      <div class="py-3 px-5">
-      <div class="text-left"><img class="showcase-left" src="images/r1.png" alt="" width="500px"></div>
-      <div class="text-right"><img class="showcase-right" src="images/r2.png" alt="" width="500px"></div>
-      <div class="text-left"><img class="showcase-left" src="images/r3.png" alt="" width="500px"></div>
+    <!-- ABOUT MOBILE -->
+    <section class="container-fluid d-lg-none" id="about_mob">
+      <div class="heading text-center mt-5 mb-4" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
+      <div class="row align-items-center" data-aos="fade-up" data-aos-duration="2000">
+        <div class="mx-3" style="box-sizing: content-box;background-color:rgb(54, 49, 49);border-radius: 8%;">
+        <div class="col-12 d-flex justify-content-center my-3" >
+          <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px">
+        </div>
+        <div class="mx-2" >
+          <div class="col-sm-12 para text-white text-center" style="color: #171717;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
+      </div>
     </div>
   </div>
+
+    <div class="row align-items-center" data-aos="fade-up" data-aos-duration="2000">
+      <div class="mx-3 my-5" style="box-sizing: content-box; background-color:rgb(54, 49, 49);border-radius: 8%;">
+      <div class="col-12 d-flex justify-content-center my-3">
+        <img class="d-sm-3 d-lg-6" id="pic2" src="images/neo_dark.png" alt="" width="250px">
+      </div>
+      <div class="mx-2 mb-5">
+        <div class="col-sm-12 para text-white text-center mb-3" style="color: #171717;"><span class="quote">"Young minds are less biased and have higher risk-taking capabilities"</span>
+          Let us nurture them in the right direction.
+         With this motive, National Entrepreneurship Olympiad was launched in the year 2018 aiming at fostering the growth of students and building an entrepreneurial mindset. NEO is hence synonymous with a ladder that will help students enlighten them in startups and entrepreneurship.</div>
+    </div>
+  </div>
+</div>
+    </section>
+
+<!-- Competition Structure -->
+    <section id="struct" class="d-none d-md-block">
+      <div class="heading3 sticky" style="color: #ff8606;font-weight: bolder;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
+      <div class="py-5 my-5">
+        
+      <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
+      <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
+      <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
+      <div class="row">
+      <div class="col-md-9 "></div>
+      <div class="text-left round text-white col-md-3" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 2vw;">Last Week of December</span>
+<br>
+        <span style="font-weight: bolder;font-size: 1.5vw;">Result Declaration</span> <br>
+        The ultimate genius will be revealed by our judging panel on 31st Dec, 2021 and the results will be mailed to you.</div></div>
+        <div class="row">
+          <div class="col-md-5 "></div>
+      <div class="text-right round text-white col-md-3" data-aos="fade-right" data-aos-duration="1000">
+        <span style="color:yellow; font-size: 2vw;">First Week of January</span>
+        <br>
+       <span style="font-weight: bolder;font-size: 1.5vw;"> Prize Distribution</span> <br>
+        The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
+          <!-- <div class="col-md-0"></div> -->
+          <div class="row">
+            <div class="col-md-6"></div>
+          <div class="text-left col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="400px"></div></div>
+        </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+    </section>
+
+    <!-- timeline mobile -->
+    <section class="d-md-none d-block" id="struct_mob" >
+      <div class="heading3 text-center sticky-md py-4 " style="color: #ff8606;font-weight: bolder;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
+
+      <div class="row">
+      <div class="col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
+    <div class="col-11"></div></div>
+    <div class="row">
+      <div class="col-5"></div>
+      <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
+      <div class="row">
+      <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
+      <div class="col-11"></div>
+      <div class="row">
+      <div class="col-3"></div>
+      <div class="text-left text-white col-5 round1" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Last Week of December</span>
+        <br>
+                <span style="font-weight: bolder;font-size: 4vw;">Result Declaration</span><br>
+        The ultimate genius will be revealed by our judging panel on 31st Dec, 2021 and the results will be mailed to you.</div></div>
+        <div class="row">
+          <div class="col-1"></div>
+      <div class="text-right round2 text-white col-5" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">First Week of January</span>
+       <br><span style="font-weight: bolder;font-size: 4vw;">Prize Distribution</span><br>
+        The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
+          <div class="col-2"></div>
+          <div class="row">
+            <div class="col-md-6"></div>
+          <div class="text-md-left text-center col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="300px"></div></div>
+        </div>
+
+  </div>
+  </div>
+</div>
     </section>
 
     <!-- STATS -->
-    <section id="stats" class="stat">
+    <section id="stats" class="stat"data-aos="fade-up"
+    data-aos-duration="2000">
       <div id="counter">
         <div class="content-box mt-5">
           <br><br>
@@ -139,13 +266,14 @@
                   <p>Number of Participants</p>
                 </div>
               </div>
-              <div class="col-md-4 text-center showcase-top d-none d-md-block">
+              <div class="col-md-4 text-center d-none d-md-block"data-aos="fade-down"
+              data-aos-duration="2000">
                 <h3>Our Previous Participations</h3>
               </div>
               <div class="col-md-4">
                 <div class="stat-items">
                   <i class="fas fa-university fa-4x"></i>
-                  <h3><span class="counter-value" data-count="100">>0</span><span>+</span></h3>
+                  <h3><span class="counter-value" data-count="750">>0</span><span>+</span></h3>
                   <p>Number of Schools</p>
                 </div>
               </div>
@@ -156,201 +284,216 @@
 
        <!-- PREVIOUS NEO PICTURES -->
     <section id="glimpses">
-      <div class="heading text-center my-5">GLIMPSES OF NEO</div>
-      <div class="owl-carousel owl-theme px-3 py-3 showcase-bot">
-        <div class="item">
-          <img src="images/pic1.jfif" alt="" width="500px">
+      <div class="heading text-center my-5"data-aos="fade-up"
+      data-aos-duration="2000">GLIMPSES OF NEO</div>
+      <div class="owl-carousel owl-theme px-3 pb-5"data-aos="fade-up"
+      data-aos-duration="2000">
+        <div class="item px-2">
+          <img src="images/pic1.jpeg" alt="">
         </div>
-        <div class="item">
-          <img src="images/pic2.jfif" alt="">
+        <div class="item px-2">
+          <img src="images/pic2.jpeg" alt="">
         </div>
-        <div class="item">
-          <img src="images/pic3.jfif" alt="">
+        <div class="item px-2">
+          <img src="images/pic3.jpeg" alt="">
         </div>
-        <div class="item">
-          <img src="images/pic4.jfif" alt="">
+        <div class="item px-2">
+          <img src="images/pic4.jpeg" alt="">
         </div>
-        <div class="item">
-          <img src="images/pic5.jfif" alt="">
+        <div class="item px-2">
+          <img src="images/pic5.jpeg" alt="">
         </div>
-        <div class="item">
-          <img src="images/pic6.jfif" alt="">
+        <div class="item px-2">
+          <img src="images/pic6.jpeg" alt="">
         </div>
-        
+        <div class="item px-2">
+          <img src="images/pic8.jpeg" alt="">
+        </div>
+
     </div>
     </section>
 
     <!-- FAQS -->
     <section id="faqs" class="faq">
-      <div class="container showcase-bot">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="heading text-center my-5">FREQUENTLY ASKED QUESTIONS</div>
-          <div class="accordion mt-5" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
+      <div class="container">
+          <div class="heading text-center mt-2"data-aos="fade-up" data-aos-duration="2000">FREQUENTLY ASKED QUESTIONS</div>
+          <div class="accordion mt-5 text-center" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingOne">
                 <h2 class="clearfix mb-0">
-                  <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Why should I participate in Neo? <i class="fa fa-angle-down"></i></a>
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Why should I participate in Neo? <i class="fa fa-angle-down d-none d-lg-block"></i></a>
                 </h2>
               </div>
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
                   NEO will help you develop : Analytical Mindset, Logical Reasoning, Entrepreneurial Mindset, Communication Skills, Knowledge of: Finances, Marketing, Startups.
                 </div>
               </div>
             </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h2 class="clearfix mb-0">
-            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">How Will NEO Be Conducted Amidst The <br> Pandemic?<i class="fa fa-angle-down"></i></a>
-          </h2>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-          <div class="card-body">All the rounds of NEO will be conducted online. The platform for the same will be conveyed to the participants on your registered email ids and Whatsapp Contact numbers.
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="clearfix mb-0">
-            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">What are the eligibility criteria?<i class="fa fa-angle-down"></i></a>
-          </h2>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-          <div class="card-body">Students of Class 7th, 8th, 9th, and 10th are eligible
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingFour">
-          <h2 class="clearfix mb-0">
-            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">On what basis will the papers be checked <br> for students of Class 7th, 8th, 9th and 10th?<i class="fa fa-angle-down"></i></a>
-          </h2>
-        </div>
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-          <div class="card-body">The evaluation criteria will take into consideration the class of the student. The papers would be fairly evaluated based on that. Students of all these classes will be considered in the selection for further rounds
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingFive">
-          <h2 class="clearfix mb-0">
-            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">What are registration fees?<i class="fa fa-angle-down"></i></a>
-          </h2>
-        </div>
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-          <div class="card-body">INR 100</div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingSix">
-          <h2 class="clearfix mb-0">
-            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">How can one study for the examination?<i class="fa fa-angle-down"></i></a>
-          </h2>
-        </div>
-        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-          <div class="card-body">Study material will be provided after the registration of the participant</div>
-        </div>
-      </div>
+            </div>
+          
 
-        </div>
+          <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingTwo">
+                <h2 class="clearfix mb-0">
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">How Will NEO Be Conducted Amidst The <br>
+                    Pandemic?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                </h2>
+              </div>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  All the rounds of NEO will be conducted online. The platform for the same will be conveyed to the participants on your registered email ids and Whatsapp Contact numbers.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingThree">
+                <h2 class="clearfix mb-0">
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">What are the eligibility criteria?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                </h2>
+              </div>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  Students of Class 7th, 8th, 9th, and 10th are eligible
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingFour">
+                <h2 class="clearfix mb-0">
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">On what basis will the papers be checked <br> for students of Class 7th, 8th, 9th and 10th?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                </h2>
+              </div>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  The evaluation criteria will take into consideration the class of the student. The papers would be fairly evaluated based on that. Students of all these classes will be considered in the selection for further rounds
+          
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingFive">
+                <h2 class="clearfix mb-0">
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">What are registration fees?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                </h2>
+              </div>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body">INR 100</div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+            <div  class="row">
+            <div class="col">
+              <div class="accordion-header" id="panelsStayOpen-headingSix">
+                <h2 class="clearfix mb-0">
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">How can one study for the examination?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                </h2>
+              </div>
+              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                <div class="accordion-body">Study material will be provided after the registration of the participant</div>
+              </div>
+            </div>
+          </div>
+
       </div>
     </div>
-    </section>
+    </section> 
+
 
     <!-- CONTACT -->
-    <section class="container-fluid" id="contact">
-      <div class="heading text-center mt-5 showcase-bot">CONTACT OUR TEAM</div>
+    <section class="container-fluid backg" id="contact">
+      <div class="heading text-center mt-1 pt-5" data-aos="fade-up"data-aos-duration="2000">EVENT MANAGERS</div>
       <div class="row align-items-center pb-3 ">
-        <div class="col-md-4 text-center data showcase-bot">
+        <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/boy.png" alt="" class="user">
-            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF-MmxqQcOJtA/profile-displayphoto-shrink_200_200/0/1623919597373?e=1639612800&v=beta&t=D25X6sv9sfN64EgpA8c1xa1osvpn8hgsqeyMbjZSdjw" alt="" class="user">
+            <blockquote >Neha Kshirsagar</blockquote>
+            <p>9673147495</p>
           </div>
         </div>
-        <div class="col-md-4 text-center data showcase-bot">
+        <div class="col-md-4 text-center data"data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/girl.jpg" alt="" class="user" width="220px">
-            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGLM1-qkDaGuQ/profile-displayphoto-shrink_200_200/0/1627842975639?e=1639612800&v=beta&t=g7ECC1FB2ofZGUcs5jdyB5W0OkzIkGBVC6Z_Ri9GDC8" alt="" class="user" width="220px">
+            <blockquote>Kushagra Upadhyaya</blockquote>
+            <p>9414741300</p>
           </div>
         </div>
-        <div class="col-md-4 text-center data showcase-bot">
+        <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/boy.png" alt="" class="user">
-            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQH5OJMr46KFog/profile-displayphoto-shrink_200_200/0/1624233720908?e=1639612800&v=beta&t=pjJcmzkwIsTfLKqlSk9Vs81gmlUSvFUmwagcjS3a_wU" alt="" class="user">
+            <blockquote>Tanmay Nagrale</blockquote>
+            <p>9146188972</p>
           </div>
         </div>
         
-        <div class="row align-items-center pb-3 mx-0">
-          <div class="col-md-4 text-center data showcase-bot">
+          <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/girl.jpg" alt="" class="user">
-              <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+              <img src="https://media-exp1.licdn.com/dms/image/C5603AQEbsNH1BHmT5w/profile-displayphoto-shrink_200_200/0/1627669260288?e=1639612800&v=beta&t=AjM-v9CZa8s9prSa8ySlrhEtPtCOnSpW9FmFBrwv8vw" alt="" class="user">
+              <blockquote>Harsh Kaabra</blockquote>
+              <p>7620216041</p>
             </div>
           </div>
-          <div class="col-md-4 text-center data showcase-bot">
+          <div class="col-md-4 text-center data"data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/boy.png" alt="" class="user" width="220px">
-              <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHmZZ6ZXKi-hg/profile-displayphoto-shrink_800_800/0/1627713525285?e=1639612800&v=beta&t=OnhFRyx8sKYNeV6xWNln_pReP_ry21hfulb3Okid40U" alt="" class="user" width="220px">
+              <blockquote>Dweeja Reddy Devi</blockquote>
+              <p>8317567940</p>
             </div>
           </div>
-          <div class="col-md-4 text-center data showcase-bot">
+          <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/girl.jpg" alt="" class="user">
-              <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur dolore repellat quibusdam delectus aspernatur, esse quod est voluptate atque animi ex id suscipit. Doloribus voluptas, consequuntur ad architecto ipsa quibusdam nostrum consectetur recusandae dolore, non facilis modi reiciendis praesentium distinctio.</blockquote>
+              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFQVzHfAblEtA/profile-displayphoto-shrink_800_800/0/1634144830247?e=1639612800&v=beta&t=g8j_GfsIzmZiQ_U6hsG11JMO2LxMSHK5R825IgL-Hjc" alt="" class="user">
+              <blockquote>Amgoth Vandana</blockquote>
+              <p>6281691916</p>
             </div>
-          </div>
       </div>
     </section>
 
-    <div class="end text-center bouncing showcase-top">
+    <div class="end text-center py-3" data-aos="fade-up" data-aos-duration="2000">
       <p style="color: white;">Want to know more? <br><span style="color: #fa9806;"> Reach us through our Social media Handles!!</span></p>
     </div>
+
+
+  <footer>
+    <div class="row align-items-center">
+      <div class="col-md-1"></div>
+        <div class="col-md-4 text-center py-5">
+          <img src="images/E-Cell_white.png" alt="" width="150px">
+        
+        <br> 
+                    <span><a href="https://m.facebook.com/vnitecell/" target="_blank"><i class="fab fa-facebook fa-2x row1 fb "></i></a></span>
+                    <span><a href="https://twitter.com/ecell_vnit" target="_blank"><i class="fab fa-twitter-square fa-2x row1 twitter"></i></a></span>
+                    <span><a href= "https://www.instagram.com/ecellvnit/" target="_blank"><i class="fab fa-instagram fa-2x row1 insta"></i></a></span>
+                    <span><a href=" https://www.linkedin.com/company/6615520/" target="_blank"><i class="fab fa-linkedin fa-2x row1 linkedin"></i></a></span>
+                    <span><a href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
  
-    <!-- FOOTER -->
-    <footer class="text-white back showcase-bot">
-      <div class="container-fluid pt-5 pb-5 mx-0">
-          <div class="row">
-            <div class="col-md-1"></div>
-              <div class="col-sm-12 col-md-3 ">
-                  <div style="display: flex">
-                      <a href="/" style="margin-left: 20px;">
-                          <img  src="images/E-Cell_white.png" alt="Ecell Logo" width="150px">
-                      </a>
-                  </div>
-                  <br><br>
-                  <a class="s-header__action-link" href="https://m.facebook.com/vnitecell/" target="_blank">
-                      <span class="g-display-none--xs g-display-inline-block--sm linkCol"><i class="fab fa-facebook-f"></i>Facebook</span>
-                  </a>
-                  <a class="s-header__action-link" href="https://twitter.com/ecell_vnit" target="_blank">
-                    
-                      <span class="g-display-none--xs g-display-inline-block--sm linkCol"><i class="fab fa-twitter"></i>Twitter</span>
-                  </a>
-                  <a class="s-header__action-link" href=" https://www.instagram.com/ecellvnit/" target="_blank">
-                    
-                      <span class="g-display-none--xs g-display-inline-block--sm linkCol"><i class="fab fa-instagram"></i>Instagram</span>
-                  </a>
-                  <br>
-                  <a class="s-header__action-link" href=" https://www.linkedin.com/company/6615520/" target="_blank">
-                    
-                      <span class="g-display-none--xs g-display-inline-block--sm linkCol"><i class="fab fa-linkedin-in"></i>LinkedIn</span>
-                  </a>
-                  <a class="s-header__action-link" href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank">
-                    
-                      <span class="g-display-none--xs g-display-inline-block--sm linkCol" ><i class="fab fa-youtube"></i>YouTube</span>
-                  </a>
-              </div>
-              <div class="col-md-1"></div>
-              <div class="col-sm-12 col-md-3">
-                      <p class="g-color--white">For Association Opportunities and Queries Contact:<br><br><b style="color: #fa9806;">neo@ecellvnit.org</b></p></b></b></div><b><b>
-              <div class="col-md-3"></div>
-              <span class="col-sm-12 col-md-3 text-sm-left text-md-right">
-                  <p class="g-font-size-14--xs g-color--white ml-3"> All rights reserved <br> &copy;<a class="linkCol" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></p>
-              </span>
-            </div>
       </div>
+      <div class="col-md-3 text-white text-center ">
+        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a></p>
+      </div>
+      <div class="col-md-3 text-white text-center pb-5">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
+    </div>
   </footer>
-    
+
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -372,6 +515,16 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+		var preloader = document.getElementById("loading");
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+
+
   <script>
     $(function(){
       $(document).scroll(function(){
@@ -380,6 +533,7 @@
       })
     })
   </script>
+
 
    <script>
      window.sr = ScrollReveal();
@@ -399,11 +553,6 @@
        distance:'300px'
      });
      
-     sr.reveal(' .showcase-bot', {
-       duration:2000,
-       origin:'bottom',
-       distance:'200px'
-     });
      sr.reveal(' .showcase-top',{
        duration:2000,
        origin:'top',
@@ -415,6 +564,10 @@
        distance:'600px'
      });
    </script>
+
+   <script>
+    AOS.init();
+  </script>
 
    <script>
      let mybutton = document.getElementById("btn-back-to-top");
@@ -494,7 +647,7 @@ animateValue(obj, 0, 10000, 5000);
 
         {
 
-          duration: 700,
+          duration: 3000,
           easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));
