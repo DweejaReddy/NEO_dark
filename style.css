@@ -12,9 +12,9 @@ body{
     background: url(images/faq_bg1.png) repeat center right fixed;
     background-size:100vw 100vh ;
 }
-
-.arrow1:hover{
-    display: block !important;
+.sticky-top{
+    background-color: #171717;
+    transition: background 0.5s;
 }
 #mainNavbar .navbar-nav{
     margin-left: auto;
@@ -42,6 +42,7 @@ body{
     color: white;
     background-color: #ff8606;
     border: none;
+    z-index: 10;
 }
 
 .bg:hover{
@@ -57,14 +58,11 @@ body{
     max-width: 80%;
     box-shadow: 4px 4px
 }
-
-
 .heading{
     color: #ff8606;
     font-size: 2.5rem;
     font-weight: bolder;
 }
-
 .img-responsive {
     margin: 0 auto;
 }
@@ -116,11 +114,6 @@ body{
     font-size: 1.5rem;
     font-weight: bolder;
 }
-.navbar.scrolled{
-    background-color: #171717;
-    transition: background 0.5s;
-}
-
 .quote{
     font-weight: bolder;
     font-size: 1.1rem;
@@ -128,7 +121,6 @@ body{
 .stat{
     background: #fa9806;
 }
-
 
 .stat h3{
     font-size: 3vw;
@@ -210,6 +202,12 @@ body{
     top: 10vw;
     padding: 50px;
     font-size: 20px;
+}
+
+.bord {
+    border-right: 7px dotted #ff8606;
+    height: 180%;
+    width: 850px;
 }
 .round{
     width: 40vw;
@@ -321,7 +319,7 @@ body{
 }
 @media(min-width : 0){
     .para,.para2,.quote{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 @media(min-width : 768px){
@@ -401,4 +399,7 @@ body{
         font-size: 0.8rem;
         margin-left: -1rem;
     }
+    #btn-back-to-top {
+       visibility: hidden;
+      }
 }
