@@ -25,8 +25,10 @@
     <title>NEO</title>
 
 </head>
+
+<lottie-player src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/lottie-player_rocket/js/rocket.json" renderer="svg" background="transparent" speed="1" style="width: 100%; height: 100%" loop="" autoplay=""></lottie-player>
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0 sticky-top"data-aos="fade-down"
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0"data-aos="fade-down"
     data-aos-duration="2000">
       <a href="https://www.ecellvnit.org/" class="navbar-brand">
       <img class="d-none d-lg-block ml-3" src="images/E-Cell_white.png" alt="ecell" width="150px">
@@ -41,29 +43,29 @@
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav ml-3 ">
           <li class="nav-item d-none d-lg-block">
-            <a href="#home" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3 arrow1"></i></a>
+            <a href="#home" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3"></i></a>
           </li>
           <li class="nav-item d-lg-none">
-            <a href="#home_mob" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#home_mob" class="nav-link">Home<i style="float: right;" class="fas fa-arrow-alt-circle-right ml-3 mt-3"></i></a>
           </li>
           <li class="nav-item d-none d-lg-block">
-            <a href="#about" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#about" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3"></i></a>
           </li>
           <li class="nav-item d-lg-none">
-            <a href="#about_mob" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#about_mob" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right  ml-3 mt-3" style="float: right;" ></i></a>
           </li>
           <li class="nav-item d-none d-lg-block">
-           <a href="#struct" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+           <a href="#struct" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-3  d-none"></i></a>
           </li>
           <li class="nav-item d-lg-none">
-            <a href="#struct_mob" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#struct_mob" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-3" style="float: right;" ></i></a>
            </li>
           <li class="nav-item">
-            <a href="#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right ml-3 mt-1  d-lg-none" style="float: right;" ></i></a>
           </li>
           
           <li class="nav-item mr-md-5">
-            <a href="#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-3 arrow1"></i></a>
+            <a href="#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none" style="float: right;" ></i></a>
           </li>
         </ul>
         <li class="nav-item ml-5 d-none d-lg-block">
@@ -78,6 +80,7 @@
         </li>
       </div>
     </nav>
+
     <!-- HOME -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
@@ -102,6 +105,9 @@
       </div>
     </section>
 
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- HOME MOBILE -->
     <section class="container-fluid d-lg-none d-block" id="home_mob">
@@ -112,10 +118,10 @@
         <img src="images/neo_black_full1.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="100px" >
       </div>
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
-      <blockquote class="text-center text-white" style="opacity: 0.7;font-size: 3.5vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, English Proficiency.
+      <blockquote class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
       </blockquote>
-      <li class="nav-item pt-3 text-center">
-        <a class="btn btn-dark bg btn1 btn mr-1" data-aos="fade-right" data-aos-duration="1000" href="#" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+      <li class="nav-item pt-3 text-center ">
+        <a class="btn btn-dark bg btn1 btn mr-1 my-2" data-aos="fade-right" data-aos-duration="1000" href="#" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
         </svg></a>
         <a class="btn btn-dark bg  btn2 btn" data-aos="fade-left" data-aos-duration="1000" href="#" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -124,9 +130,7 @@
       </li>
     </section>
 
-    <button type="button" class="btn btn-danger btn-floating btn-lg d-none d-md-block" id="btn-back-to-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
+    
 
 
     <!-- ABOUT SECTION -->
@@ -163,14 +167,14 @@
         <div class="col-12 d-flex justify-content-center my-3" >
           <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px">
         </div>
-        <div class="mx-2" >
+        <div class="mx-2 mb-4 pb-2" >
           <div class="col-sm-12 para text-white text-center" style="color: #171717;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
       </div>
     </div>
   </div>
 
     <div class="row align-items-center" data-aos="fade-up" data-aos-duration="2000">
-      <div class="mx-3 my-5" style="box-sizing: content-box; background-color:rgb(54, 49, 49);border-radius: 8%;">
+      <div class="mx-3 my-4" style="box-sizing: content-box; background-color:rgb(54, 49, 49);border-radius: 8%;">
       <div class="col-12 d-flex justify-content-center my-3">
         <img class="d-sm-3 d-lg-6" id="pic2" src="images/neo_dark.png" alt="" width="250px">
       </div>
@@ -182,6 +186,8 @@
   </div>
 </div>
     </section>
+
+
 
 <!-- Competition Structure -->
     <section id="struct" class="d-none d-md-block">
@@ -204,7 +210,6 @@
         <br>
        <span style="font-weight: bolder;font-size: 1.5vw;"> Prize Distribution</span> <br>
         The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
-          <!-- <div class="col-md-0"></div> -->
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-left col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="400px"></div></div>
@@ -231,13 +236,13 @@
       <div class="col-11"></div>
       <div class="row">
       <div class="col-3"></div>
-      <div class="text-left text-white col-5 round1" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Last Week of December</span>
+      <div class="text-left text-white col-5 round1" style="font-size: 3.8vw" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Last Week of December</span>
         <br>
                 <span style="font-weight: bolder;font-size: 4vw;">Result Declaration</span><br>
         The ultimate genius will be revealed by our judging panel on 31st Dec, 2021 and the results will be mailed to you.</div></div>
         <div class="row">
           <div class="col-1"></div>
-      <div class="text-right round2 text-white col-5" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">First Week of January</span>
+      <div class="text-right round2 text-white col-5" style="font-size: 3.8vw" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">First Week of January</span>
        <br><span style="font-weight: bolder;font-size: 4vw;">Prize Distribution</span><br>
         The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
           <div class="col-2"></div>
@@ -476,7 +481,7 @@
   <footer>
     <div class="row align-items-center">
       <div class="col-md-1"></div>
-        <div class="col-md-4 text-center py-5">
+        <div class="col-md-3 text-center py-5">
           <img src="images/E-Cell_white.png" alt="" width="150px">
         
         <br> 
@@ -487,7 +492,7 @@
                     <span><a href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
  
       </div>
-      <div class="col-md-3 text-white text-center ">
+      <div class="col-md-4 text-white text-center ">
         <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a></p>
       </div>
       <div class="col-md-3 text-white text-center pb-5">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
@@ -524,14 +529,19 @@
 		};
 	</script>
 
-
   <script>
-    $(function(){
-      $(document).scroll(function(){
-        var $nav = $("#mainNavbar");
-        $nav.toggleClass("scrolled",$(this).scrollTop()>$nav.height()); 
-      })
-    })
+  $(document).ready(function() {
+  
+  $(window).scroll(function () { 
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 550) {
+      $('#mainNavbar').addClass('sticky-top');
+    }
+    if ($(window).scrollTop() < 551) {
+      $('#mainNavbar').removeClass('sticky-top');
+    }
+  });
+});
   </script>
 
 
@@ -663,6 +673,16 @@ animateValue(obj, 0, 10000, 5000);
 
 });
    </script>
+
+<script>
+  (function ($) {
+  $(function () {
+
+    
+
+  });
+})(jQuery);
+</script>
 
 </body>
 </html>
