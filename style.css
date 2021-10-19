@@ -24,7 +24,7 @@ body{
     color: #fa9806;
 }
 #mainNavbar .nav-link:hover{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
 }
 #mainNavbar .nav-item a img{
@@ -106,7 +106,7 @@ body{
 }
 .para{
     color: white;
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: lighter;
 }
 .para2{
@@ -136,7 +136,7 @@ body{
     padding: 50px 0;
     margin: 2vw 2vh;
     border: 5px solid #ff8606;
-    border-radius: 2%;
+    border-radius: 2vw;
 }
 
 
@@ -145,13 +145,10 @@ body{
     
 }
 
-.accordion.head{
+.accordion .accordion-header a{
     padding-top: 7px;
     padding-bottom: 7px;
-}
-.head{
-    font-size: 1.3rem;
-    
+    font-size: 1.4vw;
 }
 .accordion .accordion-header .btn{
     color: #171717;
@@ -171,7 +168,7 @@ body{
 .accordion .accordion-header i{
     font-size: 1.3rem;
     position: absolute;
-    top: 25px;
+    top: auto;
     right: 2rem;
 }
 .accordion .accordion-body{
@@ -201,13 +198,23 @@ body{
     left: 1vw;
     top: 10vw;
     padding: 50px;
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 
 .bord {
     border-right: 7px dotted #ff8606;
-    height: 180%;
-    width: 850px;
+    position: relative;
+    right: 34vw;
+    margin-bottom: -72vw;
+    height: 64vw;
+}
+.bord1{
+    border-right: 7px dotted #ff8606;
+    position: relative;
+    right: 48vw;
+    top: 5vw;
+    margin-bottom: -200vw;
+    height: 200vw;
 }
 .round{
     width: 40vw;
@@ -322,17 +329,17 @@ body{
         font-size: 1rem;
     }
 }
-@media(min-width : 768px){
+@media(min-width : 767px){
     .para,.para2,.quote{
         font-size: 1rem;
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .buttons{
        font-size: 3.2vw;
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .end{
         font-size: 1rem;
     }
@@ -342,7 +349,7 @@ body{
         color:rgba(245, 244, 244, 0.877);
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .stat h3{
         font-size: 7vw;
     }
@@ -364,25 +371,16 @@ body{
         margin: 1rem;
         
     }
-    .accordion .accordian-header a{
-        font-size: 0.1vw;
-        
-    }
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
     .accordion .accordion-header .btn{
         color: #171717;
-        width: 85vw;
+        width: 83vw;
         text-align: center;
         background-color:white;
         margin: 1rem 0;
-        display: flex;
-        align-items: center;
-    }
-    .accordion .accordian-header a{
-        font-size: 0.1vw;
-        
+        background-position-x: center;
     }
 
 }
@@ -393,13 +391,22 @@ body{
     }
     .round1{
         font-size: 0.8rem;
-        margin-left: 6rem;
+        margin-left: 23vw;
     }
     .round2{
         font-size: 0.8rem;
-        margin-left: -1rem;
+        margin-left: -3vw;
     }
     #btn-back-to-top {
        visibility: hidden;
       }
+      html,body{
+        overflow-x: hidden;
+    }
+
+    .accordion .accordion-header a{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 4.3vw;
+    }
 }
