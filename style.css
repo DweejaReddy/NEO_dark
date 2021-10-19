@@ -10,7 +10,7 @@ body{
 }
 #struct,#contact,.end,#struct_mob{
     background: url(images/faq_bg1.png) repeat center right fixed;
-    background-size:100vw 100vh ;
+    background-size:80vw 150vh ;
 }
 .sticky-top{
     background-color: #171717;
@@ -408,5 +408,9 @@ body{
         padding-top: 7px;
         padding-bottom: 7px;
         font-size: 4.3vw;
+    }
+    #struct,#contact,.end,#struct_mob{
+        background: url(images/faq_bg1.png) repeat center right fixed;
+        background-size:100vw 50vh ;
     }
 }
