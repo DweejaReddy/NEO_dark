@@ -26,7 +26,7 @@ $_SESSION['name'] = $name;
  
     if ($conn->query($sql) === TRUE) {
         echo "submit ";
-    header('LOCATION:thanks.php');
+    header('LOCATION:https://razorpay.com/payment-link/plink_IC2pUzLL0nxB5i');
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   } 
