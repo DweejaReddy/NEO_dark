@@ -1,0 +1,40 @@
+body{
+    font-family:'Lato';
+    overflow-x: hidden;
+}
+form{
+  background:url(images/faq_bg1.png);
+  background-attachment: fixed;
+  background-size: 80vw 50vw;
+}
+.heading{
+    color: #ff8606;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.labels{
+    color: #ff8606;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background-color: #171717;
+    color: white;
+}
+
+@media (max-width:767px)
+{
+    .heading{
+    color: #ff8606;
+    font-size: 8vw;
+    font-weight: bolder;
+    }
+    .btn{
+        background-color: #ff8606;
+        color: white;
+        position: relative;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+}
