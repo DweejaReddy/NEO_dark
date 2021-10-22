@@ -22,7 +22,7 @@ $city=$_POST['city'];
 $class=$_POST['class'];
 $_SESSION['name'] = $name;
 
-  $sql = "INSERT INTO neo21Entries (name, email, contact, whatsapp, school, city, class) VALUES ('$name', '$email', '$contact','$whatsapp', '$school', '$city', '$class' )";
+  $sql = "INSERT INTO neo21entries (name, email, contact, whatsapp, school, city, class) VALUES ('$name', '$email', '$contact','$whatsapp', '$school', '$city', '$class' )";
  
     if ($conn->query($sql) === TRUE) {
         echo "submit ";
