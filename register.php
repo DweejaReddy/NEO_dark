@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration | Startup Weekend</title>
+    <title>Registration | NEO</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
@@ -13,55 +13,79 @@
     <!-- icons -->
     <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
 </head>
+
 <body>
-    <form method="post" action="store_details.php">
-        <div class="card-heading text-center">
-            <h1 class="title pb-2">Registration</h1>
-            <hr>
-        </div>
-        <div class="form-group row">
-            <label for="name" class="col-md-4 col-form-label">Name *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="name" placeholder="Name" required>
+    <form  class="py-4" method="post" action="store_details.php">
+            <div class="heading text-center mx-5">NEO REGISTRATION FORM</div>
+            <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
+                <div class="row">
+                    <div class=" d-none d-md-block col-md-6">
+                        <img src="images/form.png" style="border-radius: 20px 0px 0px 20px;" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="d-md-none mx-3">
+                        <img src="images/form_mob.png" alt="" width="100%" "> 
+                    </div>
+                    
+                <div class="col-md-6">
+                <div class="row align-items-center">
+            <div class="form-group col-md-6 ml-3 col-8 mt-5 labels">
+                <label for="name">Full Name*</label>
+                <input type="text" name="name" class="form-control rounded-pill" class="form-control" id="name" placeholder="Enter Your Name" required>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="form-group col-md-5 ml-3 col-8 labels">
+                <label for="class">Class*</label>
+                <input type="text" name="class" class="form-control rounded-pill" class="form-control" id="class" placeholder="Enter Your Class" required>
+              </div>
+              <div class="form-group col-md-6 labels ml-3 col-8">
+                <label for="school">School Name*</label>
+                <input type="text" class="form-control rounded-pill" name="school" class="form-control" id="school" placeholder="Enter Your School Name" required>
+              </div>
+            </div>
+            <div class="row align-iems-center">
+              <div class="form-group col-md-6 ml-3 col-8 labels">
+                <label for="city">City*</label>
+                <input type="text" class="form-control rounded-pill" name="city" class="form-control" id="city" placeholder="Enter Your City" required>
+              </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-9 labels ml-3 col-10">
+            <div class="form-group">
+              <label for="email">Email address*</label>
+              <input type="email" class="form-control rounded-pill" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email address" required>
             </div>
         </div>
-        <div class="form-group row">
-            <label for="email" class="col-md-4 col-form-label">Email ID *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="email" placeholder="Name" required>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-md-9 labels ml-3 col-10">
+            <div class="form-group">
+                <label for="contact">Phone Number*</label>
+                <input type="text" class="form-control rounded-pill" name="contact" class="form-control" id="contact" placeholder="Enter Your Mobile Number" required>
+              </div>
             </div>
         </div>
-        <div class="form-group row">
-            <label for="contact" class="col-md-4 col-form-label">Contact No. *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="contact" placeholder="Name" required>
+
+        <div class="row align-items-center">
+            <div class="col-md-9 labels ml-3 col-10">
+              <div class="form-group">
+                <label for="whatsapp">Whatsapp Number(Enter the same number again if both are same)*</label>
+                <input type="text" class="form-control rounded-pill" name="whatsapp" class="form-control" id="whatsapp" placeholder="Enter Your Whatsapp Number" required>
+              </div>
             </div>
         </div>
-        <div class="form-group row">
-            <label for="whatsapp" class="col-md-4 col-form-label">Whatsapp No. *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="whatsapp" placeholder="Name" required>
-            </div>
+        <div class="row align-items-center">
+            <div class="col-4"></div>
+            <div class="col-6">
+                <button type="submit"  name="submit_form"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="SUBMIT">Submit</button>
+            
+            
+    </div>
         </div>
-        <div class="form-group row">
-            <label for="school" class="col-md-4 col-form-label">School *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="school" placeholder="Name" required>
-            </div>
         </div>
-        <div class="form-group row">
-            <label for="city" class="col-md-4 col-form-label">City *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="city" placeholder="Name" required>
-            </div>
         </div>
-        <div class="form-group row">
-            <label for="class" class="col-md-4 col-form-label">Class *</label>
-            <div class="col-md-8">
-                <input type="text" class="form-control rounded-pill" name="class" placeholder="Name" required>
-            </div>
-        </div>
-        <button class="btn btn-danger rounded-pill align-items-center" type="submit" name="submit_form" value="SUBMIT">SUBMIT</button>
-    </form>
+    </div>
+          </form>
+
 </body>
 </html>
