@@ -86,8 +86,8 @@
         <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/neo_black_full.png" alt="" width="400px">
           <div><img  class="d-sm d-lg-none" src="images/neo_black_full.png" alt="" width = "300px"></div>
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
-          <blockquote class="para" style="opacity: 0.7;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
-          </blockquote>
+          <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
+          </div>
       
           <div class="text-center align-items-end d-none d-lg-block">
             <a class="btn btn-dark bg showcase-left  mt-4 mr-md-3  btn1 btn" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -117,8 +117,8 @@
         <img src="images/neo_black_full1.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="100px" >
       </div>
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
-      <blockquote class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
-      </blockquote>
+      <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
+            </div>
       <li class="nav-item pt-3 text-center ">
         <a class="btn btn-dark bg btn1 btn mr-1 my-2" data-aos="fade-right" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -143,7 +143,7 @@
             <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px"></div> 
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-5 para text-center text-md-left" style="font-size: 1.4vw;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
+        <div class="col-sm-12 col-md-6 col-lg-5 para text-center text-md-left" style="font-size:1.3vw;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
         
 
         <div class="col-sm-1 col-md-1"></div>
@@ -151,7 +151,7 @@
           <div class="text-center" data-aos="zoom-in-up">
             <img class="d-sm-3 d-lg-6" id="pic2" src="images/neo_black_full.png" alt="" width="350px"></div>
         </div>
-        <div class="col-md-6  text-right para order-md-1 order-sm-2" style="font-size: 1.4vw;">"Young minds are less biased and have higher risk-taking capabilities"
+        <div class="col-md-6  text-right para order-md-1 order-sm-2" style="font-size:1.3vw;">"Young minds are less biased and have higher risk-taking capabilities"
           Let us nurture them in the right direction.
          With this motive, National Entrepreneurship Olympiad was launched in the year 2018 aiming at fostering the growth of students and building an entrepreneurial mindset. It will provide students with the requisite exposure which is otherwise unavailable to school students. NEO is hence synonymous with a ladder that will help students enlighten them in an unexplored domain of startups.   
          </div>
@@ -167,7 +167,7 @@
           <img class="d-sm-3 d-lg-6 " id="pic1" src="images/E-Cell_white.png" alt="" width="250px">
         </div>
         <div class="mx-2 mb-4 pb-2" >
-          <div class="col-sm-12 para text-white text-center" style="color: #171717;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
+          <div class="col-sm-12 para text-white text-center" style="color: #171717;font-size:3.7vw;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@
         <img class="d-sm-3 d-lg-6" id="pic2" src="images/neo_dark.png" alt="" width="250px">
       </div>
       <div class="mx-2 mb-5">
-        <div class="col-sm-12 para text-white text-center mb-3" style="color: #171717;"><span class="quote">"Young minds are less biased and have higher risk-taking capabilities"</span>
+        <div class="col-sm-12 para text-white text-center mb-3" style="color: #171717;font-size:3.7vw;"><span class="quote">"Young minds are less biased and have higher risk-taking capabilities"</span>
           Let us nurture them in the right direction.
          With this motive, National Entrepreneurship Olympiad was launched in the year 2018 aiming at fostering the growth of students and building an entrepreneurial mindset. NEO is hence synonymous with a ladder that will help students enlighten them in startups and entrepreneurship.</div>
     </div>
@@ -500,10 +500,10 @@
                     <span><a href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
  
       </div>
-      <div class="col-md-4 text-white text-center ">
+      <div class="col-md-4 text-white text-center foot1">
         <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a></p>
       </div>
-      <div class="col-md-3 text-white text-center pb-2">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
+      <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
     </div>
   </footer>
 
