@@ -10,7 +10,7 @@ body{
 }
 #struct,#contact,.end,#struct_mob{
     background: url(images/faq_bg1.png) repeat center right fixed;
-    background-size:80vw 150vh ;
+    background-size:cover ;
 }
 .sticky-top{
     background-color: #171717;
@@ -148,7 +148,7 @@ body{
 .accordion .accordion-header a{
     padding-top: 7px;
     padding-bottom: 7px;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
 .accordion .accordion-header .btn{
     color: #171717;
@@ -174,6 +174,7 @@ body{
 .accordion .accordion-body{
     color: #ff8606;
     text-align: center;
+    font-size: 1.3vw;
 }
 .carousel-item{
     height: 80vh;
@@ -318,11 +319,15 @@ body{
 .foot{
     color: #fa9806;
     font-weight: bold;
+    
     text-decoration: none;
 }
 .foot:hover{
     color: white;
     text-decoration: none;
+}
+.foot1{
+    font-size: 1.3vw;
 }
 @media(min-width : 0){
     .para,.para2,.quote{
@@ -407,10 +412,18 @@ body{
     .accordion .accordion-header a{
         padding-top: 7px;
         padding-bottom: 7px;
-        font-size: 4.3vw;
+        font-size: 3.7vw;
     }
     #struct,#contact,.end,#struct_mob{
         background: url(images/faq_bg1.png) repeat center right fixed;
-        background-size:100vw 50vh ;
+        background-size:100vw 40vh ;
+    }
+    .foot1{
+        font-size: 3.7vw;
+    }
+    .accordion .accordion-body{
+        color: #ff8606;
+        text-align: center;
+        font-size: 3.7vw;
     }
 }
