@@ -199,16 +199,14 @@
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
       <div class="row">
       <div class="col-md-9"></div>
-      <div class="text-left round text-white col-md-3" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 2vw;">Last Week of December</span>
+      <div class="text-left round text-white col-md-3" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 2vw;">Result Declaration</span>
 <br>
-        <span style="font-weight: bolder;font-size: 1.5vw;">Result Declaration</span> <br>
-        The ultimate genius will be revealed by our judging panel on 31st Dec, 2021 and the results will be mailed to you.</div></div>
+        The ultimate genius will be revealed by our team on our platform and the results will be mailed to you.</div></div>
         <div class="row">
           <div class="col-md-4 " style="margin-left: 4vw;"></div>
       <div class="text-right round text-white col-md-3" data-aos="fade-right" data-aos-duration="1000">
-        <span style="color:yellow; font-size: 2vw;">First Week of January</span>
+        <span style="color:yellow; font-size: 2vw;">Prize Distribution</span>
         <br>
-       <span style="font-weight: bolder;font-size: 1.5vw;"> Prize Distribution</span> <br>
         The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
           <div class="row">
             <div class="col-md-6"></div>
@@ -236,14 +234,13 @@
       <div class="col-11"></div>
       <div class="row">
       <div class="col-4"></div>
-      <div class="text-left text-white col-5 round1" style="font-size: 3.8vw" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Last Week of December</span>
+      <div class="text-left text-white col-5 round1" style="font-size: 3.8vw" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Result Declaration</span>
         <br>
-                <span style="font-weight: bolder;font-size: 4vw;">Result Declaration</span><br>
-        The ultimate genius will be revealed by our judging panel on 31st Dec, 2021 and the results will be mailed to you.</div></div>
+        The ultimate genius will be revealed by our team on our platform and the results will be mailed to you.</div></div>
         <div class="row">
           <div class="col-1"></div>
-      <div class="text-right round2 text-white col-5" style="font-size: 3.8vw" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">First Week of January</span>
-       <br><span style="font-weight: bolder;font-size: 4vw;">Prize Distribution</span><br>
+      <div class="text-right round2 text-white col-5" style="font-size: 3.8vw" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">Prize Distribution</span>
+       <br>
         The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
           <div class="col-2"></div>
           <div class="row">
@@ -407,7 +404,7 @@
                 </h2>
               </div>
               <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                <div class="accordion-body">INR 100</div>
+                <div class="accordion-body">INR 10</div>
               </div>
             </div>
           </div>
