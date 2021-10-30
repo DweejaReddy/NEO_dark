@@ -26,7 +26,7 @@ $_SESSION['name'] = $name;
  
     if ($conn->query($sql) === TRUE) {
         echo "submit ";
-    header('LOCATION:https://rzp.io/i/hMOACJ0');
+    header('LOCATION:https://rzp.io/l/6GfANTgfm');
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   } 
