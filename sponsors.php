@@ -142,9 +142,7 @@
 				</div>
 			</div>
 		</div>
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
+
         <div class="heading1 text-center pt-5 pb-4">Power Sponsors</div>
         <div class="row align-items-center">
 		<div class="d-flex justify-content-around">
