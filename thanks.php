@@ -75,7 +75,7 @@ $name = $_SESSION['name'];
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="" style="color:white;">
-                  <?php echo "<h4>We will contact you soon. <br>Welcome to the community,<b style=color:red> $name!</b></h4><h4>If you still have not joined the community group, Join now!!</h4>";?><br>
+                  <?php echo "<h4>Your Registration is successful!!<br>Welcome to the community,<b style=color:#ff8606> $name!</b><br>We will contact you soon. <br>Keep checking your <span style=color:#ff8606>Email</span> and <span style=color:#ff8606>WhatsApp</span> frequently.<br></h4><h4>If you still have not joined the community, Join now for further updates!!</h4>";?><br>
                   <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
               <button class="btn btnth">Join Now</button></a>
                 </div>
