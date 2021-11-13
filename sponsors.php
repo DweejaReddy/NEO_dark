@@ -13,10 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./scroll-animation.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
@@ -38,15 +36,6 @@
         width: 250px;
     }
     
-.column {
-  width: 28%;
-  display: flex;
-  padding: 0 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
 .row {
   display: flex;
@@ -62,17 +51,9 @@
 
 .card {
   border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-  border-color: rgba(15, 0, 0, 0.425);
-  border-style: solid;
-  border-width: 1px;
   height: 250px;
   width: 250px;
   margin: 20px;
-}
-
-.card:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
     @media(max-width:767px){
@@ -85,19 +66,85 @@
         }
     }
 </style>
+
 <body>
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0">
+      <a href="https://www.ecellvnit.org/" class="navbar-brand">
+      <img class="d-none d-lg-block ml-3" src="images/E-Cell_white.png" alt="ecell" width="150px">
+      <img class="d-sm d-lg-none ml-3" src="images/E-Cell_white.png" alt="ecell" width="100px"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ml-3 ">
+          <li class="nav-item d-none d-lg-block">
+            <a href="index.php#home" class="nav-link">Home<i class="fas fa-arrow-alt-circle-right d-none ml-3"></i></a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a href="index.php#home_mob" class="nav-link">Home<i style="float: right;" class="fas fa-arrow-alt-circle-right ml-3 mt-0"></i></a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a href="index.php#about" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right d-none ml-3 mt-0"></i></a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a href="index.php#about_mob" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right  ml-3 mt-0" style="float: right;" ></i></a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+           <a href="index.php#struct" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-none"></i></a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a href="index.php#struct_mob" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-0" style="float: right;" ></i></a>
+           </li>
+          <li class="nav-item">
+            <a href="index.php#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
+          </li>
+          <li class="nav-item d-lg-block d-none">
+            <a href="sponsors.php" class="nav-link">Sponsors<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
+          </li>
+          <li class="nav-item mr-md-5">
+            <a href="index.php#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none" style="float: right;" ></i></a>
+          </li>
+        </ul>
+        <li class="nav-item ml-5 d-none d-lg-block">
+          <a class="btn btn-dark bg btn1 btn" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li>
+        <li class="nav-item ml-3 d-none d-lg-block">
+          <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li>
+
+        <li class="nav-item d-block d-lg-none ml-3">
+            <a href="images/NEO brochure.pdf" class="nav-link">Brochure<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
+          </li>
+          <li class="nav-item d-block d-lg-none ml-3">
+            <a href="register.php" class="nav-link">Register<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
+          </li>
+      </div>
+    </nav>
+
+
+
     <div class="heading text-center py-5" >OUR SPONSORS</div>
     <div class="heading1 text-center pb-4">Co-Presenting Sponsor</div>
     <div class="row align-items-center"> 
 			<div class="mx-auto">
 				<div class="card">
-                        <a href="https://www.akudo.in/" target="_blank">
+          <a href="https://www.akudo.in/" target="_blank">
 						<img src="images/akudo.jpg" alt="image">
-                        </a>
+          </a>
 				</div>
 			</div>
 		</div>
-
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
         <div class="heading1 text-center pt-5 pb-4">Power Sponsors</div>
         <div class="row align-items-center">
 		<div class="d-flex justify-content-around">
@@ -202,5 +249,41 @@
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
     </div>
   </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+<script>
+ $(document).ready(function() {
+  
+  $(window).scroll(function () { 
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 200) {
+      $('#mainNavbar').addClass('sticky-top');
+    }
+    if ($(window).scrollTop() < 201) {
+      $('#mainNavbar').removeClass('sticky-top');
+    }
+  });
+});
+</script>
+
 </body>
 </html>
