@@ -23,9 +23,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <title>NEO</title>
-
 </head>
-
 <body>
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0"data-aos="fade-down"
     data-aos-duration="2000">
@@ -62,7 +60,9 @@
           <li class="nav-item">
             <a href="#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
           </li>
-          
+          <li class="nav-item">
+            <a href="sponsors.php" class="nav-link">Sponsors<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
+          </li>
           <li class="nav-item mr-md-5">
             <a href="#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none" style="float: right;" ></i></a>
           </li>
@@ -79,7 +79,6 @@
         </li>
       </div>
     </nav>
-
     <!-- HOME -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
@@ -103,11 +102,9 @@
         </div>
       </div>
     </section>
-
     <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
       <i class="fas fa-arrow-up"></i>
     </button>
-
     <!-- HOME MOBILE -->
     <section class="container-fluid d-lg-none d-block" id="home_mob">
       <div>
@@ -128,10 +125,7 @@
         </svg></a>
       </li>
     </section>
-
     
-
-
     <!-- ABOUT SECTION -->
     <section class="container d-none d-lg-block " id="about">
       <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
@@ -145,7 +139,6 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-5 para text-center text-md-left" style="font-size:1.3vw;">E-Cell VNIT is the entrepreneurship cell of VNIT. The very purpose of E-Cell is to foster a community of entrepreneurs and stimulate a constructive ecosystem for them. Throughout the year E-cell organizes events that promote managerial values among budding students across the country.</div>
         
-
         <div class="col-sm-1 col-md-1"></div>
         <div class="col-sm-3 col-md-5 align-items-center my-5 order-md-2 order-sm-1">
           <div class="text-center" data-aos="zoom-in-up">
@@ -157,7 +150,6 @@
          </div>
       </div>
     </section>
-
     <!-- ABOUT MOBILE -->
     <section class="container-fluid d-lg-none" id="about_mob">
       <div class="heading text-center mt-5 mb-4" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
@@ -171,7 +163,6 @@
       </div>
     </div>
   </div>
-
     <div class="row align-items-center" data-aos="fade-up" data-aos-duration="2000">
       <div class="mx-3 my-4" style="box-sizing: content-box; background-color:rgb(54, 49, 49);border-radius: 8%;">
       <div class="col-12 d-flex justify-content-center my-3">
@@ -185,9 +176,6 @@
   </div>
 </div>
     </section>
-
-
-
 <!-- Competition Structure -->
     <section id="struct" class="d-none d-md-block">
       
@@ -197,17 +185,6 @@
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
       <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
-      <div class="row">
-      <div class="col-md-9"></div>
-      <div class="text-left round text-white col-md-3" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 2vw;">Result Declaration</span>
-<br>
-        The ultimate genius will be revealed by our team on our platform and the results will be mailed to you.</div></div>
-        <div class="row">
-          <div class="col-md-4 " style="margin-left: 4vw;"></div>
-      <div class="text-right round text-white col-md-3" data-aos="fade-right" data-aos-duration="1000">
-        <span style="color:yellow; font-size: 2vw;">Prize Distribution</span>
-        <br>
-        The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-left col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="400px"></div></div>
@@ -218,7 +195,6 @@
   </div>
 </div>
     </section>
-
     <!-- timeline mobile -->
     <section class="d-md-none d-block" id="struct_mob" >
       <div class="heading3 text-center sticky-md py-4 " style="color: #ff8606;font-weight: bolder;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
@@ -231,28 +207,53 @@
       <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
       <div class="row">
       <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
-      <div class="col-11"></div>
-      <div class="row">
-      <div class="col-4"></div>
-      <div class="text-left text-white col-5 round1" style="font-size: 3.8vw" data-aos="fade-left" data-aos-duration="1000" ><span style="color:yellow; font-size: 5vw;">Result Declaration</span>
-        <br>
-        The ultimate genius will be revealed by our team on our platform and the results will be mailed to you.</div></div>
-        <div class="row">
-          <div class="col-1"></div>
-      <div class="text-right round2 text-white col-5" style="font-size: 3.8vw" data-aos="fade-right" data-aos-duration="1000"><span style="color:yellow; font-size: 5vw;">Prize Distribution</span>
-       <br>
-        The winners will be contacted by our team for their addresses and the winning goodies will be sent at their addresses</div></div>
-          <div class="col-2"></div>
+      
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-md-left text-center col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="300px"></div></div>
         </div>
-
   </div>
   </div>
 </div>
     </section>
 
+<!-- COMMUNITY BLOCK -->
+    <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;">
+      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
+      <div class="row">
+        <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
+          <div class="heading text-center">❝ EntreLearners ❞</div>
+          <div class="para text-center"style="margin:3% 0">
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
+              <button class="btn btn3">Join Now</button></a>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/com.png" alt="" data-aos="fade-left"data-aos-duration="2000">
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY MOBILE -->
+    <section class="community container-fluid d-block d-md-none" style="margin-bottom:-3%;">
+      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
+      <div class="row">
+      <div class="col text-center">
+          <img src="images/com.png" class="text-center" alt="" width="350vw"
+          data-aos="fade-left"data-aos-duration="2000">
+        </div>
+        <div class="col text-center"data-aos="fade-right"data-aos-duration="2000">
+          <div class="heading text-center" style="font-size:10vw;">❝ EntreLearners ❞</div>
+          <div class="para text-center"style="margin:3% 0">
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
+              <button class="btn btn3" style="font-size:5vw;">Join Now</button></a>
+        </div>
+        </div>
+        
+      </div>
+    </section>
     <!-- STATS -->
     <section id="stats" class="stat"data-aos="fade-up"
     data-aos-duration="2000">
@@ -283,7 +284,6 @@
           </div>
         </div>
     </section>
-
        <!-- PREVIOUS NEO PICTURES -->
     <section id="glimpses">
       <div class="heading text-center my-5"data-aos="fade-up"
@@ -311,10 +311,8 @@
         <div class="item px-2">
           <img src="images/pic8.jpeg" alt="">
         </div>
-
     </div>
     </section>
-
     <!-- FAQS -->
     <section id="faqs" class="faq">
           <div class="heading text-center mt-2"data-aos="fade-up" data-aos-duration="2000">FREQUENTLY ASKED QUESTIONS</div>
@@ -353,11 +351,9 @@
             </div>
             </div>
             </div>
-
           
           <div class="container">
           <div class="row">
-
             <div class="col-md-6">
               <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
                   <div class="accordion-header" id="panelsStayOpen-headingThree">
@@ -374,7 +370,6 @@
                 </div>
               </div>
              
-
           <div class="col-md-6">
           <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
               <div class="accordion-header" id="panelsStayOpen-headingFour">
@@ -392,8 +387,6 @@
           </div>
         </div>
           </div>
-
-
         <div class="container">
           <div  class="row">
             <div class="col-md-6">
@@ -404,12 +397,11 @@
                 </h2>
               </div>
               <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                <div class="accordion-body">INR 10</div>
+                <div class="accordion-body">FREE</div>
               </div>
             </div>
           </div>
         
-
           <div class="col-md-6">
             <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
               <div class="accordion-header" id="panelsStayOpen-headingSix">
@@ -477,10 +469,33 @@
             </div>
       </div>
     </section>
-
-    <div class="end text-center py-3" data-aos="fade-up" data-aos-duration="2000">
-      <p style="color: white;">Want to know more? <br><span style="color: #fa9806;"> Reach us through our Social media Handles!!</span></p>
+    <div class="end text-center py-3">
+      <p style="color: white;"data-aos="fade-up" data-aos-duration="2000">Want to know more? <br><span style="color: #fa9806;"> Reach us through our Social media Handles!!</span></p>
     </div>
+    
+    <!-- QUERIES PAGE -->
+    <section class="container-fluid contact">
+      <form class="py-4" method="post" name="NEO-QUERIES">
+      <div class="heading text-center mx-5 pb-4" data-aos="fade-up" data-aos-duration="2000">ASK YOUR QUERIES</div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="form-group col-12 col-md-5">
+                <input type="text" data-aos="fade-up" data-aos-duration="2000" name="Name" class="form-control rounded-pill" class="form-control" id="name" placeholder="Name*" required>
+                <input style="margin:4.5% 0;" data-aos="fade-up" data-aos-duration="2000" type="email" name="Email" class="form-control rounded-pill" class="form-control" id="Email" placeholder="Email*" required>
+                <input type="text" data-aos="fade-up" data-aos-duration="2000" name="Phone" class="form-control rounded-pill" class="form-control" id="Phone" placeholder="Phone*" required>
+        </div>
+        <div class="form-group col-12 col-md-5" data-aos="fade-up" data-aos-duration="2000">
+        <textarea type="text" name="Message" rows="6" class="form-control rounded-pill" class="form-control" id="Message" placeholder="Message*" required></textarea>
+        </div>
+
+            <div class="col text-center">
+                <button type="submit"  name="submit"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="SUBMIT">Submit</button>
+            
+            
+    </div>
+      </div>
+      </form>
+    </section>
 
 
   <footer>
@@ -503,7 +518,6 @@
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
     </div>
   </footer>
-
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -526,8 +540,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
   <script>
   $(document).ready(function() {
   
@@ -542,8 +554,6 @@
   });
 });
   </script>
-
-
    <script>
      window.sr = ScrollReveal();
      sr.reveal(' .showcase-left', {
@@ -573,18 +583,14 @@
        distance:'600px'
      });
    </script>
-
    <script>
     AOS.init();
   </script>
-
    <script>
      let mybutton = document.getElementById("btn-back-to-top");
-
   window.onscroll = function () {
     scrollFunction();
   };
-
   function scrollFunction() {
     if (
       document.body.scrollTop > 20 ||
@@ -596,12 +602,10 @@
     }
   }
   mybutton.addEventListener("click", backToTop);
-
   function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
-
   function animateValue(obj, start, end, duration) {
   let startTimestamp = null;
   const step = (timestamp) => {
@@ -614,11 +618,9 @@
   };
   window.requestAnimationFrame(step);
 }
-
 const obj = document.getElementById("count");
 animateValue(obj, 0, 10000, 5000);
    </script>
-
    <script>
      $('.owl-carousel').owlCarousel({
     loop:true,
@@ -637,8 +639,6 @@ animateValue(obj, 0, 10000, 5000);
     }
 })
    </script>
-
-
    <script>
      $(window).scroll(function() {
   var a = 0;
@@ -653,9 +653,7 @@ animateValue(obj, 0, 10000, 5000);
       }).animate({
           countNum: countTo
         },
-
         {
-
           duration: 3000,
           easing: 'swing',
           step: function() {
@@ -664,16 +662,26 @@ animateValue(obj, 0, 10000, 5000);
           complete: function() {
             $this.text(this.countNum);
           }
-
         });
     });
     a = 1;
   }
-
 });
    </script>
 
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzXlW-T95TlI-WD0gqG3LrjmRVbeGPwGxkrpJ7iV84deWG_tIymu-5iFW-Mivrs1_QS/exec'
+            const form = document.forms['NEO-QUERIES']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
 
-
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
