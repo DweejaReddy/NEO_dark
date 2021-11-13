@@ -20,10 +20,10 @@
             <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
                 <div class="row">
                     <div class=" d-none d-md-block col-md-6">
-                        <img src="images/form.png" style="border-radius: 20px 0px 0px 20px;" alt="" width="100%" height="100%">
+                        <img src="images/home_bg_form.png" style="border-radius: 20px 0px 0px 20px;margin-left:-30px;" alt="" width="120%" height="90%">
                     </div>
                     <div class="d-md-none mx-3">
-                        <img src="images/form_mob.png" alt="" width="100%" "> 
+                        <img src="images/home_bg.png" alt="" width="100%" "> 
                     </div>
                     
                 <div class="col-md-6">
