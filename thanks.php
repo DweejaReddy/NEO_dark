@@ -76,7 +76,7 @@ $name = $_SESSION['name'];
             <div class="row text-center">
                 <div class="" style="color:white;">
                   <?php echo "<h4>Your Registration is successful!!<br>Welcome to the community,<b style=color:#ff8606> $name!</b><br>We will contact you soon. <br>Keep checking your <span style=color:#ff8606>Email</span> and <span style=color:#ff8606>WhatsApp</span> frequently.<br></h4><h4>If you still have not joined the community, Join now for further updates!!</h4>";?><br>
-                  <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
+                  <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btnth">Join Now</button></a>
                 </div>
             </div>
@@ -91,3 +91,4 @@ $name = $_SESSION['name'];
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
