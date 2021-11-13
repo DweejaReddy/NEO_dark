@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
@@ -225,7 +225,7 @@
           <div class="heading text-center">❝ EntreLearners ❞</div>
           <div class="para text-center"style="margin:3% 0">
               Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-              <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
+              <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btn3">Join Now</button></a>
         </div>
         </div>
@@ -247,7 +247,7 @@
           <div class="heading text-center" style="font-size:10vw;">❝ EntreLearners ❞</div>
           <div class="para text-center"style="margin:3% 0">
               Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-              <a href="https://t.me/joinchat/aVc6q5N8mCRhNTJl" target="_blank"> 
+              <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btn3" style="font-size:5vw;">Join Now</button></a>
         </div>
         </div>
@@ -364,7 +364,7 @@
                   </div>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                      All the rounds of NEO will be conducted online. The platform for the same will be conveyed to the participants on your registered email ids and Whatsapp Contact numbers.
+                      Round 1 and Round 2 of NEO will be conducted online. The platform for the same will be conveyed to the participants on your registered email ids and Whatsapp Contact numbers.
                     </div>
                   </div>
                 </div>
