@@ -75,6 +75,14 @@
             </div>
         </div>
         <div class="row align-items-center">
+            <div class="col-md-9 labels ml-3 col-10">
+              <div class="form-group">
+                <label for="atal">Are you a student of  Atal Tinkering Lab , Atal Innovation Mission NITI Aayog(Yes/No)*</label>
+                <input type="text" class="form-control rounded-pill" name="atal" class="form-control" id="atal" placeholder="Yes/No" required>
+              </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
             <div class="col-4"></div>
             <div class="col-6">
                 <button type="submit"  name="submit_form"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="SUBMIT">Submit</button>
