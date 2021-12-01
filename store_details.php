@@ -13,14 +13,14 @@ if ($conn->connect_error){
     die("Connection failed: " . $conn->connect_error);
 }	 
  
-$name=$_POST['name'];
-$email=$_POST['email'];
-$contact=$_POST['contact'];
-$whatsapp=$_POST['whatsapp'];
-$school=$_POST['school'];
-$city=$_POST['city'];
-$class=$_POST['class'];
-$atal=$_POST['atal'];
+$name=mysqli_real_escape_string($conn, $_POST['name']);
+$email=mysqli_real_escape_string($conn, $_POST['name']);
+$contact=mysqli_real_escape_string($conn, $_POST['name']);
+$whatsapp=mysqli_real_escape_string($conn, $_POST['name']);
+$school=mysqli_real_escape_string($conn, $_POST['name']);
+$city=mysqli_real_escape_string($conn, $_POST['name']);
+$class=mysqli_real_escape_string($conn, $_POST['name']);
+$atal=mysqli_real_escape_string($conn, $_POST['name']);
 $_SESSION['name'] = $name;
 
   $sql = "INSERT INTO neo21entries (name, email, contact, whatsapp, school, city, class, atal) VALUES ('$name', '$email', '$contact','$whatsapp', '$school', '$city', '$class', '$atal' )";
