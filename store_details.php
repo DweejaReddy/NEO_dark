@@ -14,13 +14,13 @@ if ($conn->connect_error){
 }	 
  
 $name=mysqli_real_escape_string($conn, $_POST['name']);
-$email=mysqli_real_escape_string($conn, $_POST['name']);
-$contact=mysqli_real_escape_string($conn, $_POST['name']);
-$whatsapp=mysqli_real_escape_string($conn, $_POST['name']);
-$school=mysqli_real_escape_string($conn, $_POST['name']);
-$city=mysqli_real_escape_string($conn, $_POST['name']);
-$class=mysqli_real_escape_string($conn, $_POST['name']);
-$atal=mysqli_real_escape_string($conn, $_POST['name']);
+$email=mysqli_real_escape_string($conn, $_POST['email']);
+$contact=mysqli_real_escape_string($conn, $_POST['contact']);
+$whatsapp=mysqli_real_escape_string($conn, $_POST['whatsapp']);
+$school=mysqli_real_escape_string($conn, $_POST['school']);
+$city=mysqli_real_escape_string($conn, $_POST['city']);
+$class=mysqli_real_escape_string($conn, $_POST['class']);
+$atal=mysqli_real_escape_string($conn, $_POST['atal']);
 $_SESSION['name'] = $name;
 
   $sql = "INSERT INTO neo21entries (name, email, contact, whatsapp, school, city, class, atal) VALUES ('$name', '$email', '$contact','$whatsapp', '$school', '$city', '$class', '$atal' )";
