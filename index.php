@@ -82,8 +82,7 @@
     <!-- HOME -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
-        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/neo_black_full.png" alt="" width="400px">
-          <div><img  class="d-sm d-lg-none" src="images/neo_black_full.png" alt="" width = "300px"></div>
+        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/neo_spons.png" alt="" height="240px">
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
           <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
           </div>
@@ -111,7 +110,7 @@
         <img src="images/home_bg.svg" data-aos="fade-right" data-aos-duration="1000" alt="" style="margin-bottom: -60px;" >
       </div>
       <div class="text-center">
-        <img src="images/neo_black_full1.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="100px" >
+        <img src="images/neo_spons.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="150px" >
       </div>
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
       <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
