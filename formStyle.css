@@ -21,6 +21,15 @@ form{
     background-color: #171717;
     color: white;
 }
+.drop{
+    size: 100px 100px;
+}
+.select{
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    width: 400px;
+    border-radius: 20px;
+}
 
 @media (max-width:767px)
 {
@@ -36,5 +45,16 @@ form{
     }
     html,body{
         overflow-x: hidden;
+    }
+    .select{
+        padding: 8px 12px;
+        display: block;
+        width: 270px;
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    .option{
+        font-size: 0.8rem;
+        padding-right: 8px;
     }
 }
