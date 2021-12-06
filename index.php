@@ -204,14 +204,14 @@
       <div class="row">
       <div class="col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
     <div class="col-11"></div></div>
-    <div class="text-right" style="margin-top:-130px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
+    <div class="text-right" style="margin-top:-124px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
     <div class="row">
       <div class="col-5"></div>
       <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
-      <div class="text-left" style="margin-top:-136px;margin-left:37px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
+      <div class="text-left" style="margin-top:-136px;margin-left:20px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
       <div class="row">
       <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
-      <div class="text-right" style="margin-top:-132px;margin-right:-7px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
+      <div class="text-right" style="margin-top:-132px;margin-right:-25px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-md-left text-center col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="300px"></div></div>
