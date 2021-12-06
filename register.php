@@ -13,14 +13,13 @@
     <!-- icons -->
     <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
 </head>
-
 <body>
     <form  class="py-4" method="post" action="store_details.php">
             <div class="heading text-center mx-5">NEO REGISTRATION FORM</div>
             <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
                 <div class="row">
                     <div class=" d-none d-md-block col-md-6">
-                        <img src="images/home_bg_form.png" style="border-radius: 20px 0px 0px 20px;margin-left:-30px;" alt="" width="120%" height="90%">
+                        <img src="images/home_bg_form.png" style="border-radius: 20px 0px 0px 20px;margin-left:-30px;" alt="" width="120%" height="95%">
                     </div>
                     <div class="d-md-none mx-3">
                         <img src="images/home_bg.png" alt="" width="100%" "> 
@@ -65,7 +64,6 @@
               </div>
             </div>
         </div>
-
         <div class="row align-items-center">
             <div class="col-md-9 labels ml-3 col-10">
               <div class="form-group">
@@ -76,12 +74,20 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-9 labels ml-3 col-10">
-              <div class="form-group">
-                <label for="atal">Are you a student of  Atal Tinkering Lab , Atal Innovation Mission NITI Aayog(Yes/No)*</label>
-                <input type="text" class="form-control rounded-pill" name="atal" class="form-control" id="atal" placeholder="Yes/No" required>
-              </div>
+              <div class="form-group drop">
+                <label for="atal">How did you get to know about NEO?*</label>
+                <select name="atal" id="atal" class="select" required>
+                  <div class="btn btn-light">
+                  <option class="option" value="">--Choose one option below--</option>
+                  <option class="option" value="atal">Atal tinkering lab/Atal Innovation Mission/NITI Aayog</option>
+                  <option class="option" value="ito">Indian Talent Olympiad</option>
+                  <option class="option" value="others">Others</option>
+                </select>
+                </div>
+              <!-- </div> -->
             </div>
         </div>
+
         <div class="row align-items-center">
             <div class="col-4"></div>
             <div class="col-6">
@@ -94,6 +100,5 @@
         </div>
     </div>
           </form>
-
 </body>
 </html>
