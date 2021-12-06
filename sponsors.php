@@ -132,6 +132,17 @@
 
 
     <div class="heading text-center py-5" >OUR SPONSORS</div>
+    <div class="heading1 text-center pb-4">Title Sponsor</div>
+    <div class="row align-items-center"> 
+			<div class="mx-auto">
+				<div class="card">
+          <a href="https://www.practically.com/web/index.php" target="_blank">
+						<img src="images/practically.png" alt="image">
+          </a>
+				</div>
+			</div>
+		</div>
+
     <div class="heading1 text-center pb-4">Co-Presenting Sponsor</div>
     <div class="row align-items-center"> 
 			<div class="mx-auto">
@@ -160,6 +171,18 @@
 			</div>
 		</div>
 	</div>
+
+  <div class="heading1 text-center pt-5 pb-4">Outreach Partner</div>
+    <div class="row"> 
+			<div class="mx-auto">
+				<div class="card text-center">
+                        <a href="https://www.indiantalent.org/" target="_blank">
+						<img src="images/ito.jpg" alt="image">
+                        </a>
+				</div>
+			</div>
+		</div>
+
 
     <div class="heading1 text-center pt-5 pb-4">Kids Outreach Partner</div>
     <div class="row"> 
@@ -224,8 +247,6 @@
 				</div>
 			</div>
 		</div>
-
-
 
     <footer>
     <div class="row align-items-center" style="background-color:#171717;">
