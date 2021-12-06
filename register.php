@@ -84,7 +84,6 @@
                   <option class="option" value="others">Others</option>
                 </select>
                 </div>
-              <!-- </div> -->
             </div>
         </div>
 
