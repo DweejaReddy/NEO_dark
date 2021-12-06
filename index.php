@@ -82,7 +82,7 @@
     <!-- HOME -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
-        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/neo_spons.png" alt="" height="240px">
+        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/NEO_spons.png" alt="" height="220px">
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
           <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
           </div>
@@ -110,7 +110,7 @@
         <img src="images/home_bg.svg" data-aos="fade-right" data-aos-duration="1000" alt="" style="margin-bottom: -60px;" >
       </div>
       <div class="text-center">
-        <img src="images/neo_spons.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="150px" >
+        <img src="images/NEO_spons.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="150px" >
       </div>
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
       <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
@@ -182,8 +182,11 @@
       <div class="py-5 my-5">
         <div class="bord"></div>
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
+      <div class="text-right" style="margin-top:-245px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="300px"></div>
       <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
+      <div class="text-left" style="margin-top:-247px;margin-left:460px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
+      <div class="text-right" style="margin-top:-234px;margin-right:18px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="330px"></div>
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-left col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="400px"></div></div>
@@ -201,12 +204,14 @@
       <div class="row">
       <div class="col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
     <div class="col-11"></div></div>
+    <div class="text-right" style="margin-top:-130px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
     <div class="row">
       <div class="col-5"></div>
       <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
+      <div class="text-left" style="margin-top:-136px;margin-left:37px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
       <div class="row">
       <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
-      
+      <div class="text-right" style="margin-top:-132px;margin-right:-7px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-md-left text-center col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="300px"></div></div>
