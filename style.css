@@ -121,7 +121,7 @@ body {
   font-weight: bolder;
   font-size: 1.1rem;
 }
-.stat {
+.stat,.practically {
   background: #fa9806;
 }
 
@@ -205,7 +205,7 @@ body {
   border-right: 7px dotted #ff8606;
   position: relative;
   right: 34vw;
-  margin-bottom: -61vw;
+  margin-bottom: -64vw;
   height: 60vw;
 }
 .bord1 {
@@ -213,8 +213,8 @@ body {
   position: relative;
   right: 49vw;
   top: 5vw;
-  margin-bottom: -105vw;
-  height: 105vw;
+  margin-bottom: -125vw;
+  height: 125vw;
 }
 .round {
   width: 40vw;
