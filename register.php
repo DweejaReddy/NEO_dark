@@ -59,7 +59,7 @@
     <div class="row align-items-center">
         <div class="col-md-9 labels ml-3 col-10">
             <div class="form-group">
-                <label for="contact">Phone Number*</label>
+                <label for="contact">Phone Number(This is unique credential used to login to the exam)*</label>
                 <input type="text" class="form-control rounded-pill" name="contact" class="form-control" id="contact" placeholder="Enter Your Mobile Number" required>
               </div>
             </div>
@@ -84,6 +84,7 @@
                   <option class="option" value="others">Others</option>
                 </select>
                 </div>
+              <!-- </div> -->
             </div>
         </div>
 
