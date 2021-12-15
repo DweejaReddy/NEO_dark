@@ -23,7 +23,7 @@
     $result = mysqli_query($con, $checkUser);
     $count = mysqli_num_rows($result);
     if($count>0){
-      header('LOCATION:display_login.php');
+      header('LOCATION:success.php');
     }
     else{
       $sql = "INSERT into `neo21`.`neo21entries` (name, class, school, city, email, contact, whatsapp, atal) VALUES ('$name', '$class', '$school', '$city', '$email', '$contact', '$whatsapp', '$atal')";
