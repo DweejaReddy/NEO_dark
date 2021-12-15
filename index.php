@@ -182,11 +182,11 @@
       <div class="pb-5 my-5">
         <div class="bord"></div>
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
-      <div class="text-right" style="margin-top:-273px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="300px"></div>
-      <div class="text-right" style="margin-top:-234px;margin-right:20px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="300px"></a></div>
+      <div class="text-right" style="margin-top:-247px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="300px"></div>
+      <!-- <div class="text-right" style="margin-top:-234px;margin-right:20px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="300px"></a></div> -->
       <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
-      <div class="text-left" style="margin-top:-312px;margin-left:393px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
-      <div class="text-left" style="margin-top:-269px;margin-left:393px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-right" src="images/date21.png" alt="" width="500px" height="350px"></a></div>
+      <div class="text-left" style="margin-top:-272px;margin-left:393px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
+      <!-- <div class="text-left" style="margin-top:-269px;margin-left:393px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-right" src="images/date21.png" alt="" width="500px" height="350px"></a></div> -->
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
       <div class="text-right" style="margin-top:-249px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="330px"></div>
           <div class="row">
@@ -206,16 +206,16 @@
       <div class="row">
       <div class="col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
     <div class="col-11"></div></div>
-    <div class="text-right" style="margin-top:-150px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
-    <div class="text-right" style="margin-top:-130px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="170px"></div>
+    <div class="text-right" style="margin-top:-137px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
+    <!-- <div class="text-right" style="margin-top:-130px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="170px"></div> -->
     <div class="row">
       <div class="col-5"></div>
       <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
-      <div class="text-left" style="margin-top:-156px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
-      <div class="text-left" style="margin-top:-158px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date21.png" alt=""height="200px"></div>
+      <div class="text-left" style="margin-top:-143px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
+      <!-- <div class="text-left" style="margin-top:-158px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date21.png" alt=""height="200px"></div> -->
       <div class="row">
       <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
-      <div class="text-right" style="margin-top:-133px;margin-right:-25px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
+      <div class="text-right" style="margin-top:-130px;margin-right:-25px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
           <div class="row">
             <div class="col-md-6"></div>
           <div class="text-md-left text-center col-md-6 py-4"><img data-aos="fade-up" data-aos-duration="1000" src="images/timelineimg.png" alt="" width="300px"></div></div>
@@ -226,17 +226,17 @@
     </section>
 <!-- PRACTICALLY SECTION -->
     <section class="practically container-fluid d-none d-md-block" id="practically" style="margin-bottom:70px;">
-      <div class=" text-center pt-3" style="font-size:2vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
+      <div class=" text-center pt-3" style="font-size:1.7vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
-      <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="25%"></a></div>
-      <div data-aos="fade-up" data-aos-duration="1000" class=" text-center pb-2" style="font-size:2vw;">Download the practically app now!! <br> Available both on play store(android) and app store(ios)</div>
+      <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="20%"></a></div>
+      <div data-aos="fade-up" data-aos-duration="1000" class=" text-center pb-2" style="font-size:1.7vw;">Download the practically app now!! <br> Available both on play store(android) and app store(ios)</div>
       <div class="row align-items-center pb-3">
         <div class="col-3"></div>
         <div class="col-2" data-aos="fade-up" data-aos-duration="1000" style="background-color:black;margin-left:60px;border-radius:50px;">
-          <a href="https://play.google.com/store/apps/details?id=com.thirdflix.practically" target="_blank"><img src="images/playstore.png" alt="" width="90%"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.thirdflix.practically" target="_blank"><img src="images/playstore.png" alt="" width="80%"></a>
         </div>
         <div class="col-2" data-aos="fade-up" data-aos-duration="1000" style="background-color:black;margin-left:60px;border-radius:50px;">
-          <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width=90%"></a>
+          <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width=80%"></a>
         </div>
       </div>
     </section>
@@ -244,14 +244,14 @@
     <section class="practically container-fluid d-md-none d-block my-5" id="practically" style="margin-bottom:70px;">
       <div class=" text-center pt-3" style="font-size:2.8vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
-      <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="60%"></a></div>
+      <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="35%"></a></div>
       <div class=" text-center pb-2" style="font-size:2.8vw;" data-aos="fade-up" data-aos-duration="1000">Download the practically app now!! <br> Available on both play store(android) and app store(ios)</div>
       <div class="row align-items-center pb-3">
         <div class="col-3" data-aos="fade-up" data-aos-duration="1000" style="background-color:black;margin-left:60px;border-radius:50px;">
-          <a href="https://play.google.com/store/apps/details?id=com.thirdflix.practically" target="_blank"><img src="images/playstore.png" alt="" width="120%"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.thirdflix.practically" target="_blank"><img src="images/playstore.png" alt="" width="100%"></a>
         </div>
         <div class="col-3" data-aos="fade-up" data-aos-duration="1000" style="background-color:black;margin-left:60px;border-radius:50px;">
-          <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width="120%"></a>
+          <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width="100%"></a>
         </div>
       </div>
     </section>
