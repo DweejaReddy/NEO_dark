@@ -1,5 +1,5 @@
 <?php
-// session_start();
+session_start();
 //   $server = "localhost";
 //   $username = "root";
 //   $password = "";
@@ -18,7 +18,7 @@
     $city= mysqli_real_escape_string($con, $_POST['city']);
     $class= mysqli_real_escape_string($con, $_POST['class']);
     $atal = mysqli_real_escape_string($con, $_POST['atal']);
-
+    $_SESSION['name']=$name;
     $checkUser = "SELECT * FROM neo21entries where contact = '$contact'";
     $result = mysqli_query($con, $checkUser);
     $count = mysqli_num_rows($result);
