@@ -24,7 +24,7 @@
                     <div class="d-md-none mx-3">
                         <img src="images/home_bg.png" alt="" width="100%" "> 
                     </div>
-                    
+                    <!--======================NAME======================  -->
                 <div class="col-md-6">
                 <div class="row align-items-center">
             <div class="form-group col-md-6 ml-3 col-8 mt-5 labels">
@@ -32,22 +32,36 @@
                 <input type="text" name="name" class="form-control rounded-pill" class="form-control" id="name" placeholder="Enter Your Name" required>
               </div>
             </div>
-            <div class="row align-items-center">
-              <div class="form-group col-md-5 ml-3 col-8 labels">
+<!-- -=================================CLASS=========================- -->
+              <div class="row align-items-center">
+            <div class="col-md-4 labels ml-3 col-10">
+              <div class="form-group">
                 <label for="class">Class*</label>
-                <input type="text" name="class" class="form-control rounded-pill" class="form-control" id="class" placeholder="Enter Your Class" required>
-              </div>
+                <select name="class" id="class" class="select" required>
+                  <div class="btn btn-light">
+                  <option class="option" value="">--Choose your class--</option>
+                  <option class="option" value="7">7</option>
+                  <option class="option" value="8">8</option>
+                  <option class="option" value="9">9</option>
+                  <option class="option" value="10">10</option>
+                </select>
+                </div>
+</div>
+                <!-- =========================SCHOOL===================== -->
+<div class="col-md-1"></div>
               <div class="form-group col-md-6 labels ml-3 col-8">
                 <label for="school">School Name*</label>
                 <input type="text" class="form-control rounded-pill" name="school" class="form-control" id="school" placeholder="Enter Your School Name" required>
               </div>
             </div>
+            <!-- ====================CITY======================== -->
             <div class="row align-iems-center">
               <div class="form-group col-md-6 ml-3 col-8 labels">
                 <label for="city">City*</label>
                 <input type="text" class="form-control rounded-pill" name="city" class="form-control" id="city" placeholder="Enter Your City" required>
               </div>
             </div>
+            <!-- =================EMAIL========================= -->
             <div class="row align-items-center">
                 <div class="col-md-9 labels ml-3 col-10">
             <div class="form-group">
@@ -56,6 +70,7 @@
             </div>
         </div>
     </div>
+    <!-- ============================CONTACT NUMBER====================== -->
     <div class="row align-items-center">
         <div class="col-md-9 labels ml-3 col-10">
             <div class="form-group">
@@ -64,6 +79,7 @@
               </div>
             </div>
         </div>
+        <!-- =========================WHATSAPP========================= -->
         <div class="row align-items-center">
             <div class="col-md-9 labels ml-3 col-10">
               <div class="form-group">
@@ -72,6 +88,7 @@
               </div>
             </div>
         </div>
+        <!-- =======================HOW DID YOU KNOW===================== -->
         <div class="row align-items-center">
             <div class="col-md-9 labels ml-3 col-10">
               <div class="form-group drop">
@@ -84,10 +101,9 @@
                   <option class="option" value="others">Others</option>
                 </select>
                 </div>
-              <!-- </div> -->
             </div>
         </div>
-
+<!-- ==================SUBMIT================== -->
         <div class="row align-items-center">
             <div class="col-4"></div>
             <div class="col-6">
