@@ -29,7 +29,7 @@
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "SELECT name, email, contact, whatsapp, school, city, class, atal FROM neo21entries";
+        $sql = "SELECT sno, name, email, contact, whatsapp, school, city, class, atal FROM neo21entries";
         $result = mysqli_query($conn, $sql);
         
     ?>
@@ -37,7 +37,7 @@
    <table class="table">
         <thead class="thead-dark">
             <tr>
-                <!-- <th scope="col">name</th> -->
+                <th scope="col">sno</th>
                 <th scope="col">Name</th>
                 <!-- <th scope="col">Contact Details</th> -->
                 <th scope="col">Email</th>
@@ -54,6 +54,7 @@
         ?>
         <tbody>
             <tr>
+                <td><?php echo $row["sno"]; ?></td>
                 <td><?php echo $row["name"]; ?></td>
                 <td><?php echo $row["email"]; ?></td>
                 <td><?php echo $row["contact"]; ?></td>
