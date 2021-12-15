@@ -25,6 +25,7 @@
     <title>NEO</title>
 </head>
 <body>
+  <!-- ==============================HEADER STARTS============================= -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0"data-aos="fade-down"
     data-aos-duration="2000">
       <a href="https://www.ecellvnit.org/" class="navbar-brand">
@@ -79,10 +80,12 @@
         </li>
       </div>
     </nav>
-    <!-- HOME -->
+<!-- ==============================HEADER ENDS============================= -->
+
+    <<!-- ==============================HOME STARTS============================= -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
-        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-5 col-lg-10" src="images/NEO_spons.png" alt="" height="220px">
+        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-4" src="images/NEO_spons.png" alt="" height="220px">
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
           <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
           </div>
@@ -104,7 +107,10 @@
     <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
       <i class="fas fa-arrow-up"></i>
     </button>
-    <!-- HOME MOBILE -->
+    <!-- ==============================HOME ENDS============================= -->
+
+
+    <!-- ==============================HOME MOBILE STARTS============================= -->
     <section class="container-fluid d-lg-none d-block" id="home_mob">
       <div>
         <img src="images/home_bg.svg" data-aos="fade-right" data-aos-duration="1000" alt="" style="margin-bottom: -60px;" >
@@ -124,8 +130,9 @@
         </svg></a>
       </li>
     </section>
+    <!-- ==============================HOME MOBILE ENDS============================= -->
     
-    <!-- ABOUT SECTION -->
+    <!-- ==============================ABOUT SECTION============================= -->
     <section class="container d-none d-lg-block " id="about">
       <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
       <div class="row align-items-center mx-5 my-5">
@@ -149,7 +156,9 @@
          </div>
       </div>
     </section>
-    <!-- ABOUT MOBILE -->
+    <!-- ==============================ABOUT SECTION ENDS============================= -->
+
+    <!-- ==============================ABOUT MOBILE============================= -->
     <section class="container-fluid d-lg-none" id="about_mob">
       <div class="heading text-center mt-5 mb-4" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
       <div class="row align-items-center" data-aos="fade-up" data-aos-duration="2000">
@@ -175,7 +184,9 @@
   </div>
 </div>
     </section>
-<!-- Competition Structure -->
+    <!-- ==============================ABOUT MOBILE ENDS============================= -->
+
+    <!-- ==============================TIMELINE STARTS============================= -->
     <section id="struct" class="d-none d-md-block">
       
       <div class="sticky" style="color: #ff8606;font-weight: bolder;margin-left: -2.5vw;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
@@ -199,7 +210,9 @@
   </div>
 </div>
     </section>
-    <!-- timeline mobile -->
+    <!-- ==============================TIMELINE ENDS============================= -->
+
+    <!-- ==============================TIMELINE MOBILE STARTS============================= -->
     <section class="d-md-none d-block" id="struct_mob" >
       <div class="heading3 text-center sticky-md py-4 " style="color: #ff8606;font-weight: bolder;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
       <div class="bord1"></div>
@@ -224,7 +237,27 @@
   </div>
 </div>
     </section>
-<!-- PRACTICALLY SECTION -->
+<!-- ==============================TIMELINE MOBILE ENDS============================= -->
+
+
+    <!-- ==============================GUIDELINES STARTS============================= -->
+    <section class="guide container-fluid" id="guide">
+      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">GUIDELINES</div>
+      <div class="container para text-left">
+        <ul class="pb-3">
+          <li>NEO E-Cell, VNIT Round 1 will be conducted in online manner on 15th-16th January 2022 exclusively on the Practically Application</li>
+          <li>The Olympiad can be given on the app using only the mobile application</li>
+          <li>Registration for NEO E-Cell, VNIT is free of cost. </li>
+          <li>Inside the NEO Round 1 exam, there will be 60 questions. </li>
+          <li>The duration for each question in NEO Round 1 exam is 45 seconds</li>
+          <li>There won't be any negative marking in the NEO Round 1 exam.</li>
+          <li>The Pre-Study material, Resources, and References would be provided to all the participants before the examination.</li>
+        </ul>
+      </div>
+    </section>
+<!-- ==============================GUIDELINES ENDS============================= -->
+
+<!-- ==============================PRACTICALLY SECTION STARTS============================= -->
     <section class="practically container-fluid d-none d-md-block" id="practically" style="margin-bottom:70px;">
       <div class=" text-center pt-3" style="font-size:1.7vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
@@ -255,8 +288,9 @@
         </div>
       </div>
     </section>
+<!-- ==============================PRACTICALLY SECTION ENDS============================= -->
 
-<!-- COMMUNITY BLOCK -->
+<!-- ==============================COMMUNITY BLOCK STARTS============================= -->
     <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;">
       <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
       <div class="row">
@@ -273,8 +307,9 @@
         </div>
       </div>
     </section>
+<!-- ==============================COMMUNITY BLOCK ENDS============================= -->
 
-    <!-- COMMUNITY MOBILE -->
+<!-- ==============================COMMUNITY MOBILE STARTS============================= -->
     <section class="community container-fluid d-block d-md-none" style="margin-bottom:-3%;">
       <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
       <div class="row">
@@ -293,7 +328,9 @@
         
       </div>
     </section>
-    <!-- STATS -->
+    <!-- ==============================COMMUNITY MOBILE ENDS============================= -->
+
+  <!-- ==============================STATS STARTS============================= -->
     <section id="stats" class="stat"data-aos="fade-up"
     data-aos-duration="2000">
       <div id="counter">
@@ -323,7 +360,9 @@
           </div>
         </div>
     </section>
-       <!-- PREVIOUS NEO PICTURES -->
+    <!-- ==============================STATS ENDS============================= -->
+
+       <!-- ==============================NEO PICTURES STARTS============================= -->
     <section id="glimpses">
       <div class="heading text-center my-5"data-aos="fade-up"
       data-aos-duration="2000">GLIMPSES OF NEO</div>
@@ -352,7 +391,9 @@
         </div>
     </div>
     </section>
-    <!-- FAQS -->
+    <!-- ==============================NEO PICTURES ENDS============================= -->
+
+    <!-- ==============================FAQS STARTS============================= -->
     <section id="faqs" class="faq">
           <div class="heading text-center mt-2"data-aos="fade-up" data-aos-duration="2000">FREQUENTLY ASKED QUESTIONS</div>
           <div class="accordion my-3 text-center" id="accordionPanelsStayOpenExample">
@@ -459,8 +500,9 @@
     </div>
     </section> 
 
+<!-- ==============================FAQS END============================= -->
 
-    <!-- CONTACT -->
+    <!-- ==============================CONTACT STARTS============================= -->
     <section class="container-fluid backg" id="contact">
       <div class="heading text-center mt-1 pt-5" data-aos="fade-up"data-aos-duration="2000">EVENT MANAGERS</div>
       <div class="row align-items-center pb-3 ">
@@ -508,11 +550,13 @@
             </div>
       </div>
     </section>
+    <!-- ==============================CONTACT ENDS============================= -->
+
     <div class="end text-center py-3">
       <p style="color: white;"data-aos="fade-up" data-aos-duration="2000">Want to know more? <br><span style="color: #fa9806;"> Reach us through our Social media Handles!!</span></p>
     </div>
     
-    <!-- QUERIES PAGE -->
+    <!-- ==============================QUERIES STARTS============================= -->
     <section class="container-fluid contact">
       <form class="py-4" method="post" name="NEO-QUERIES">
       <div class="heading text-center mx-5 pb-4" data-aos="fade-up" data-aos-duration="2000">ASK YOUR QUERIES</div>
@@ -535,8 +579,9 @@
       </div>
       </form>
     </section>
+<!-- ==============================QUERIES END============================= -->
 
-
+    <!-- ==============================FOOTER STARTS============================= -->
   <footer>
     <div class="row align-items-center">
       <div class="col-md-1"></div>
@@ -557,6 +602,8 @@
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
     </div>
   </footer>
+  <!-- ==============================FOOTER ENDS============================= -->
+  
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
