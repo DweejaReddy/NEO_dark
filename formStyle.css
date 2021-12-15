@@ -24,6 +24,9 @@ form{
 .drop{
     size: 100px 100px;
 }
+#class{
+    width: 220px;
+}
 .select{
     padding: 8px 12px;
     font-size: 1.2rem;
@@ -49,7 +52,7 @@ form{
     .select{
         padding: 8px 12px;
         display: block;
-        width: 270px;
+        width: 280px;
         font-size: 1rem;
         border-radius: 20px;
     }
@@ -58,3 +61,4 @@ form{
         padding-right: 8px;
     }
 }
+
