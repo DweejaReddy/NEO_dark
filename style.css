@@ -221,7 +221,21 @@ body {
   font-size: 1.2vw;
   margin-left: -2rem;
 }
-.community {
+.guide ul{
+  list-style: none;
+}
+.guide ul li::before {
+  content: "\2022"; 
+  color: #ff8606; 
+  font-weight: bold;
+   display: inline-block; 
+  width: 2em; 
+  margin-left: 3.5em;
+}
+.guide ul li{
+   margin: 10px;
+}
+.community,.guide {
   background-color: rgb(54, 49, 49);
 }
 .btn3 {
@@ -465,5 +479,13 @@ body {
     color: #ff8606;
     text-align: center;
     font-size: 3.7vw;
+  }
+  .guide ul li::before {
+    content: "\2022"; 
+    color: #ff8606; 
+    font-weight: bold;
+     display: inline-block; 
+    width: 1.5em; 
+    margin-left: -2em;
   }
 }
