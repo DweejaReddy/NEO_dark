@@ -240,8 +240,8 @@
 <!-- ==============================TIMELINE MOBILE ENDS============================= -->
 
 
-    <!-- ==============================GUIDELINES STARTS============================= -->
-    <section class="guide container-fluid" id="guide">
+       <!-- ==============================GUIDELINES STARTS============================= -->
+    <section class="guide container-fluid mt-5" id="guide">
       <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">GUIDELINES</div>
       <div class="container para text-left">
         <ul class="pb-3">
@@ -273,7 +273,9 @@
         </div>
       </div>
     </section>
-<!-- PRACTICALLY MOBILE -->
+    <!-- ==============================PRACTICALLY SECTION STARTS============================= -->
+
+<!-- ==============================PRACTICALLY MOBILE STARTS============================= -->
     <section class="practically container-fluid d-md-none d-block my-5" id="practically" style="margin-bottom:70px;">
       <div class=" text-center pt-3" style="font-size:2.8vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
@@ -288,7 +290,7 @@
         </div>
       </div>
     </section>
-<!-- ==============================PRACTICALLY SECTION ENDS============================= -->
+<!-- ==============================PRACTICALLY MOBILE ENDS============================= -->
 
 <!-- ==============================COMMUNITY BLOCK STARTS============================= -->
     <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;">
