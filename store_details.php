@@ -5,7 +5,7 @@ session_start();
 //   $password = "";
   // $dbname = "neo21entries";
 
-  $con = mysqli_connect("localhost","root","","neo21");
+  $con = mysqli_connect("localhost","ias2020","ecell123","neo21");
   if(!$con){
       die("connection failed due to ". mysqli_connect_error());
   }
