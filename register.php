@@ -98,6 +98,7 @@
                   <option class="option" value="">--Choose one option below--</option>
                   <option class="option" value="atal">Atal tinkering lab/Atal Innovation Mission/NITI Aayog</option>
                   <option class="option" value="ito">Indian Talent Olympiad</option>
+                  <option class="option" value="uc">Unified Council</option>
                   <option class="option" value="others">Others</option>
                 </select>
                 </div>
