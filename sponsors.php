@@ -293,7 +293,7 @@
       </div>
     </div>
 
-    <div class="heading1 text-center pt-5 pb-4">Outreach Partners</div>
+    <div class="heading1 text-center pt-5 pb-4">Outreach Partners & Student Connect Partner</div>
     <div class="row align-items-center">
       <div class="d-flex justify-content-around">
         <div class="card">
@@ -306,6 +306,13 @@
         <div class="card">
           <a href="https://www.unifiedcouncil.com/" target="_blank">
             <img src="images/uc.jpg" alt="img" />
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="card">
+          <a href="https://www.scholarshipsinindia.com/" target="_blank">
+            <img src="images/scholar.png" alt="img" />
           </a>
         </div>
       </div>
@@ -475,4 +482,3 @@
     </script>
   </body>
 </html>
-
