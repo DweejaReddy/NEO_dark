@@ -32,27 +32,27 @@ session_start();
       $sql = "INSERT into `neo21`.`neo21entries` (name, class, school, city, email, contact, whatsapp, atal) VALUES ('$name', '$class', '$school', '$city', '$email', '$contact', '$whatsapp', '$atal')";
         
         if($con->query($sql)==true){
-            // header('LOCATION:thanks.php');
-            $mail = new PHPMailer\PHPMailer\PHPMailer();
-            try {
-                $mail->isSMTP();                                            
-                $mail->Host       = 'smtp.gmail.com';         
-                $mail->SMTPAuth   = true;                         
-                $mail->Username   = 'contact@ecellvnit.org';             
-                $mail->Password   = '21Cont@ct22';                             
-                $mail->SMTPSecure = 'tls';        
-                $mail->Port       = 587;                                  
-                $mail->setFrom('contact@ecellvnit.org', 'NEO VNIT');
-                $mail->addAddress($email);
-                $mail->addAttachment('images/NEO_studymaterial.pdf'); 
-                $mail->isHTML(true);            
-                $mail->Subject = 'Registration for NEO 2022 successful !!!';
-                $mail->Body    = 'Dear '.$name.',<br>Your <b>registration</b> for National Entrepreneurship Olympiad (NEO 2022) by E-Cell VNIT is <b>completed successfully.</b><br><br><b>NEO Round 1:</b><br>Date: 15th & 16th January 2022<br>Mode: Online (through Practically Mobile Application)<br>Duration: 45 minutes<br>Topics:<br><li>Logical Thinking<li>English Proficiency<li>Basics of Entrepreneurship & Startups<li>Basics of Finances<li>Marketing & Public Speaking<br><br>Download the <b>Practically</b> Application Now !! <br><br>To join our nationwide Telegram community of Entrepreneurship Enthusiasts Youngsters called <b>EntreLearners</b> click below<br><a href="https://t.me/EntreLearners">https://t.me/EntreLearners</a><br><br>Please find the below attached copy of the <b>Pre-Study Material</b> for your reference. <br><br>For any queries visit: <br><a href="https://neo.ecellvnit.org/">https://neo.ecellvnit.org/<br></a>All the best!!<br><br>Regards<br><span style="color:#ff8606"><b>TEAM NEO</b></span>';
-                $mail->send();
-                header('LOCATION:thanks.php');
-            } catch (Exception $e) {
-                echo "Something went wrong!! Try again!!!";
-            }
+            header('LOCATION:thanks.php');
+            // $mail = new PHPMailer\PHPMailer\PHPMailer();
+            // try {
+            //     $mail->isSMTP();                                            
+            //     $mail->Host       = 'smtp.gmail.com';         
+            //     $mail->SMTPAuth   = true;                         
+            //     $mail->Username   = 'contact@ecellvnit.org';             
+            //     $mail->Password   = '21Cont@ct22';                             
+            //     $mail->SMTPSecure = 'tls';        
+            //     $mail->Port       = 587;                                  
+            //     $mail->setFrom('contact@ecellvnit.org', 'NEO VNIT');
+            //     $mail->addAddress($email);
+            //     $mail->addAttachment('images/NEO_studymaterial.pdf'); 
+            //     $mail->isHTML(true);            
+            //     $mail->Subject = 'Registration for NEO 2022 successful !!!';
+            //     $mail->Body    = 'Dear '.$name.',<br>Your <b>registration</b> for National Entrepreneurship Olympiad (NEO 2022) by E-Cell VNIT is <b>completed successfully.</b><br><br><b>NEO Round 1:</b><br>Date: 15th & 16th January 2022<br>Mode: Online (through Practically Mobile Application)<br>Duration: 45 minutes<br>Topics:<br><li>Logical Thinking<li>English Proficiency<li>Basics of Entrepreneurship & Startups<li>Basics of Finances<li>Marketing & Public Speaking<br><br>Download the <b>Practically</b> Application Now !! <br><br>To join our nationwide Telegram community of Entrepreneurship Enthusiasts Youngsters called <b>EntreLearners</b> click below<br><a href="https://t.me/EntreLearners">https://t.me/EntreLearners</a><br><br>Please find the below attached copy of the <b>Pre-Study Material</b> for your reference. <br><br>For any queries visit: <br><a href="https://neo.ecellvnit.org/">https://neo.ecellvnit.org/<br></a>All the best!!<br><br>Regards<br><span style="color:#ff8606"><b>TEAM NEO</b></span>';
+            //     $mail->send();
+            //     header('LOCATION:thanks.php');
+            // } catch (Exception $e) {
+            //     echo "Something went wrong!! Try again!!!";
+            // }
 
         }
         else{
