@@ -312,7 +312,7 @@
       <div class="d-flex justify-content-around">
         <div class="card">
           <a href="https://www.scholarshipsinindia.com/" target="_blank">
-            <img src="images/scholar.png" alt="img" />
+            <img src="images/scholar.jpeg" alt="img" />
           </a>
         </div>
       </div>
