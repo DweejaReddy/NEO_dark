@@ -196,11 +196,11 @@
         <li class="nav-item ml-5 d-none d-lg-block">
           <a
             class="btn btn-dark bg btn1 btn"
-            href="images/NEO brochure.pdf"
+            href="images/NEO_studymaterial.pdf"
             target="_blank"
             role="button"
           >
-            BROCHURE<svg
+            STUDY MATERIAL<svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
