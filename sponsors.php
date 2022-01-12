@@ -329,6 +329,17 @@
       </div>
     </div>
 
+    <div class="heading1 text-center pt-5 pb-4">Interactive Learning Partner</div>
+    <div class="row">
+      <div class="mx-auto">
+        <div class="card text-center">
+          <a href="https://www.ekatra.one/" target="_blank">
+            <img src="images/ekatra.jpeg" alt="image" />
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="heading1 text-center pt-5 pb-4">Media & Outreach Partners</div>
     <div class="row">
       <div class="d-flex justify-content-around">
