@@ -74,10 +74,15 @@
           </svg></a>
         </li>
         <li class="nav-item ml-3 d-none d-lg-block">
-          <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <a class="btn btn-dark bg  btn2 btn" href="images/NEO brochure.pdf" target="_blank" role="button">BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
         </li>
+        <!-- <li class="nav-item ml-3 d-none d-lg-block">
+          <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li> -->
       </div>
     </nav>
 <!-- ==============================HEADER ENDS============================= -->
@@ -85,13 +90,13 @@
     <<!-- ==============================HOME STARTS============================= -->
     <section class="container-fluid d-none d-lg-block" id="home">
       <div class="row">
-        <div class="col-lg-5 mt-2 img-fluid img-responsive showcase-left"><img class=" ml-4" src="images/NEO_spons.png" alt="" height="220px">
+        <div class="col-lg-5 img-fluid img-responsive showcase-left"><img class=" ml-4" src="images/NEO_spons.png" alt="" height="220px">
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
           <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
           </div>
       
           <div class="text-center align-items-end d-none d-lg-block">
-            <a class="btn btn-dark bg btn btn2 mt-3 mr-2 showcase-left" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <!-- <a class="btn btn-dark bg btn btn2 mt-3 mr-2 showcase-left" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
           <a class="btn btn-dark bg btn btn1 mt-3 mr-2" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -99,7 +104,14 @@
           </svg></a>
           <a class="btn btn-dark bg showcase-right1 mt-3 btn2 btn" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
               <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg></a>
+            </svg></a> -->
+            <h4 style="color: #ff8606;font-weight: 800;" class="mt-2">Registrations for NEO 2022 have been closed!!</h4>
+            <div class="row">
+              <div class="col-8 text-white my-auto" style="font-size: 1.7vw;">Join the community Here >>></div>
+              <div class="col-2"><a href="https://t.me/EntreLearners" target="_blank"> 
+                <button class="btn btn3 my-2">Join Now</button></a></div>
+            </div>
+            
           </div>
         </div>
         <div class="col-lg-6 mr-5 showcase-right">
@@ -124,7 +136,7 @@
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
       <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
             </div>
-      <li class="nav-item pt-3 text-center ">
+      <!-- <li class="nav-item pt-3 text-center ">
         <a class="btn btn-dark bg  btn2 btn" data-aos="fade-right" data-aos-duration="1000" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
         </svg></a>
@@ -134,7 +146,12 @@
         <a class="btn btn-dark bg btn1 btn mr-1 my-2" data-aos="fade-up" data-aos-duration="1000" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
         </svg></a>
-      </li>
+      </li> -->
+      <h6 style="color: #ff8606;font-size: 4.5vw;font-weight: 800;" class="mt-2 text-center">Registrations for NEO 2022 have been closed!!</h6>
+      <div class="text-white text-center" style="font-size: 4.3vw;">Join the community Here <i class="fas fa-angle-down"></i></div>
+      <div class="text-center"><a href="https://t.me/EntreLearners" target="_blank"> 
+        <button class="btn btn3 my-2" style="font-size: 5vw;">Join Now</button></a></div>
+
     </section>
     <!-- ==============================HOME MOBILE ENDS============================= -->
     
@@ -779,3 +796,4 @@ animateValue(obj, 0, 10000, 5000);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
+              
