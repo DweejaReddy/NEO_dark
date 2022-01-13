@@ -216,10 +216,10 @@
         <li class="nav-item ml-3 d-none d-lg-block">
           <a
             class="btn btn-dark bg btn2 btn"
-            href="register.php"
+            href="images/NEO brochure.pdf"
             target="_blank"
             role="button"
-            >REGISTER NOW<svg
+            >BROCHURE<svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -234,7 +234,7 @@
         </li>
 
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="images/NEO brochure.pdf" class="nav-link"
+          <a href="images/NEO brochure.pdf" target="_blank" class="nav-link"
             >Brochure<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
@@ -242,8 +242,8 @@
           ></a>
         </li>
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="register.php" class="nav-link"
-            >Register<i
+          <a href="images/NEO_studymaterial.pdf" target="_blank" class="nav-link"
+            >Study Material<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
             ></i
@@ -393,58 +393,27 @@
       </div>
     </div>
 
-    <footer>
-      <div class="row align-items-center" style="background-color: #171717">
-        <div class="col-md-1"></div>
-        <div class="col-md-3 text-center py-5">
-          <img src="images/E-Cell_white.png" alt="" width="150px" />
-
-          <br />
-          <span
-            ><a href="https://m.facebook.com/vnitecell/" target="_blank"
-              ><i class="fab fa-facebook fa-2x row1 fb"></i></a
-          ></span>
-          <span
-            ><a href="https://twitter.com/ecell_vnit" target="_blank"
-              ><i class="fab fa-twitter-square fa-2x row1 twitter"></i></a
-          ></span>
-          <span
-            ><a href="https://www.instagram.com/ecellvnit/" target="_blank"
-              ><i class="fab fa-instagram fa-2x row1 insta"></i></a
-          ></span>
-          <span
-            ><a
-              href=" https://www.linkedin.com/company/6615520/"
-              target="_blank"
-              ><i class="fab fa-linkedin fa-2x row1 linkedin"></i></a
-          ></span>
-          <span
-            ><a
-              href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ"
-              target="_blank"
-              ><i class="fab fa-youtube fa-2x row1 youtube"></i></a
-          ></span>
-        </div>
-        <div class="col-md-4 text-white text-center foot1">
-          <p>
-            For Association Opportunities and Queries Contact: <br /><a
-              class="foot"
-              href="mailto:neo@ecellvnit.org"
-              >neo@ecellvnit.org</a
-            >
-          </p>
-        </div>
-        <div class="col-md-3 text-white text-center pb-2 foot1">
-          All rights reserved <br />
-          &copy;<a
-            class="foot"
-            href="https://www.ecellvnit.org/"
-            target="_blank"
-            >E-Cell Vnit</a
-          >
-        </div>
+<footer>
+    <div class="row align-items-center" style="background-color: #171717;">
+      <div class="col-md-1"></div>
+        <div class="col-md-3 text-center py-md-5 py-2">
+          <img src="images/E-Cell_white.png" alt="" width="150px">
+        
+        <br> 
+                    <span><a href="https://m.facebook.com/vnitecell/" target="_blank"><i class="fab fa-facebook fa-2x row1 fb "></i></a></span>
+                    <span><a href="https://twitter.com/ecell_vnit" target="_blank"><i class="fab fa-twitter-square fa-2x row1 twitter"></i></a></span>
+                    <span><a href= "https://www.instagram.com/ecellvnit/" target="_blank"><i class="fab fa-instagram fa-2x row1 insta"></i></a></span>
+                    <span><a href=" https://www.linkedin.com/company/6615520/" target="_blank"><i class="fab fa-linkedin fa-2x row1 linkedin"></i></a></span>
+                    <span><a href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
+ 
       </div>
-    </footer>
+      <div class="col-md-4 text-white text-center foot1 mt-md-3">
+        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a>
+          <br><a class="foot" href="mailto:neo.pr.ecellvnit@gmail.com">neo.pr.ecellvnit@gmail.com</a></p>
+      </div>
+      <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
+    </div>
+  </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
