@@ -78,6 +78,22 @@
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
         </li>
+        <li class="nav-item d-block d-lg-none ml-3">
+          <a href="images/NEO brochure.pdf" target="_blank" class="nav-link"
+            >Brochure<i
+              class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
+              style="float: right"
+            ></i
+          ></a>
+        </li>
+        <li class="nav-item d-block d-lg-none ml-3">
+          <a href="images/NEO_studymaterial.pdf" target="_blank" class="nav-link"
+            >Study Material<i
+              class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
+              style="float: right"
+            ></i
+          ></a>
+        </li>
         <!-- <li class="nav-item ml-3 d-none d-lg-block">
           <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -136,22 +152,23 @@
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
       <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
             </div>
-      <!-- <li class="nav-item pt-3 text-center ">
-        <a class="btn btn-dark bg  btn2 btn" data-aos="fade-right" data-aos-duration="1000" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-        </svg></a>
-        <a class="btn btn-dark bg btn2 btn my-2" data-aos="fade-left" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-        </svg></a>
-        <a class="btn btn-dark bg btn1 btn mr-1 my-2" data-aos="fade-up" data-aos-duration="1000" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-        </svg></a>
-      </li> -->
+     
       <h6 style="color: #ff8606;font-size: 4.5vw;font-weight: 800;" class="mt-2 text-center">Registrations for NEO 2022 have been closed!!</h6>
       <div class="text-white text-center" style="font-size: 4.3vw;">Join the community Here <i class="fas fa-angle-down"></i></div>
       <div class="text-center"><a href="https://t.me/EntreLearners" target="_blank"> 
         <button class="btn btn3 my-2" style="font-size: 5vw;">Join Now</button></a></div>
 
+        <li class="nav-item pt-3 text-center ">
+          <!-- <a class="btn btn-dark bg  btn2 btn" data-aos="fade-right" data-aos-duration="1000" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a> -->
+          <a class="btn btn-dark bg btn1 btn my-1" data-aos="fade-right" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+        </li>
     </section>
     <!-- ==============================HOME MOBILE ENDS============================= -->
     
@@ -267,15 +284,16 @@
     <section class="guide container-fluid mt-5" id="guide">
       <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">GUIDELINES</div>
       <div class="container para text-left">
-        <ul class="pb-3">
-          <li>NEO E-Cell, VNIT Round 1 will be conducted in online manner on 15th-16th January 2022 exclusively on the Practically Application</li>
-          <li>The Olympiad can be given on the app using only the mobile application</li>
-          <li>Registration for NEO E-Cell, VNIT is free of cost. </li>
-          <li>Inside the NEO Round 1 exam, there will be 60 questions. </li>
-          <li>The duration for each question in NEO Round 1 exam is 45 seconds</li>
-          <li>There won't be any negative marking in the NEO Round 1 exam.</li>
-          <li>The Pre-Study material, Resources, and References would be provided to all the participants before the examination.</li>
-        </ul>
+        <div class=" text-center">
+          <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i><span style="font-weight: 800;">Round 1 examination dates: </span>15th-18th January 2022</div>
+          <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>Examination will be conducted on <span style="font-weight: 800;"> Practically Mobile Application</span></div>
+            <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>Round 1 exam window will be <span style="font-weight: 800;"> open for all 3 days</span> and can be given once.</div>
+              <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i><span style="font-weight: 800;">Make sure you register on Practically app with the same mobile number which was used for registering for NEO’22.</span></div>
+                <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>NEO Round 1 exam will be an MCQ type test (no negative marking)‼️</div>
+                  <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>Total
+                    <span style="font-weight: 800;"> 60 </span>questions</div>
+                    <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>Duration: <span style="font-weight: 800;"> 45 minutes.</span></div>
+            </div>
       </div>
     </section>
 <!-- ==============================GUIDELINES ENDS============================= -->
@@ -610,7 +628,7 @@
   <footer>
     <div class="row align-items-center">
       <div class="col-md-1"></div>
-        <div class="col-md-3 text-center py-5">
+        <div class="col-md-3 text-center py-md-5 py-2">
           <img src="images/E-Cell_white.png" alt="" width="150px">
         
         <br> 
@@ -621,8 +639,9 @@
                     <span><a href=" https://www.youtube.com/channel/UC0KNOmODhqLcEpcfN9qEsIQ" target="_blank"><i class="fab fa-youtube fa-2x row1 youtube"></i></a></span>
  
       </div>
-      <div class="col-md-4 text-white text-center foot1">
-        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a></p>
+      <div class="col-md-4 text-white text-center foot1 mt-md-3">
+        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a>
+          <br><a class="foot" href="mailto:neo.pr.ecellvnit@gmail.com">neo.pr.ecellvnit@gmail.com</a></p>
       </div>
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
     </div>
@@ -796,4 +815,3 @@ animateValue(obj, 0, 10000, 5000);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
-              
