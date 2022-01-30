@@ -1,0 +1,35 @@
+body{
+    background-color: #171717;
+}
+.btnth {
+    border-radius: 20px;
+    background-color: #ff8606;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.btnth {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.btnth:after {
+content: "»";
+position: absolute;
+opacity: 0;
+top: 5px;
+right: -20px;
+transition: 0.5s;
+}
+
+.btnth:hover {
+padding-right: 24px;
+padding-left: 8px;
+}
+
+.btnth:hover:after {
+opacity: 1;
+right: 10px;
+}
