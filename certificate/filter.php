@@ -7,7 +7,7 @@ require('fpdf.php');
 
 // to store the connection
 // $con = mysqli_connect($server, $username, $password, $dbname);
-$con = mysqli_connect("localhost","root","","neo21entries");
+ $con = mysqli_connect("localhost","ias2020","ecell123","neo21");
 
 // to check whether the db is connected or not
 if (!$con) {
@@ -20,7 +20,7 @@ if (isset($_POST['certificate_form'])) {
   // store the contact
   $contact = mysqli_real_escape_string($con, $_POST['contact']);
   // query to find all the records having given contact details
-  $checkUser = "SELECT * FROM neo where contact = '$contact'";
+  $checkUser = "SELECT * FROM neo21entries where contact = '$contact'";
   // querying the database
   $result = mysqli_query($con, $checkUser);
   // count the no. of record found
