@@ -196,11 +196,11 @@
         <li class="nav-item ml-5 d-none d-lg-block">
           <a
             class="btn btn-dark bg btn1 btn"
-            href="images/NEO_studymaterial.pdf"
+            href="http://neo.ecellvnit.org/certificate/"
             target="_blank"
             role="button"
           >
-            STUDY MATERIAL<svg
+            DOWNLOAD CERTIFICATE<svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -242,8 +242,8 @@
           ></a>
         </li>
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="images/NEO_studymaterial.pdf" target="_blank" class="nav-link"
-            >Study Material<i
+          <a href="http://neo.ecellvnit.org/certificate/" target="_blank" class="nav-link"
+            >Download Certificate<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
             ></i
