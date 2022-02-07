@@ -20,7 +20,7 @@ if (isset($_POST['certificate_form'])) {
   // store the contact
   $contact = mysqli_real_escape_string($con, $_POST['contact']);
   // query to find all the records having given contact details
-  $checkUser = "SELECT * FROM neo21entries where contact = '$contact'";
+  $checkUser = "SELECT * FROM finalNEO21entries where contact = '$contact'";
   // querying the database
   $result = mysqli_query($con, $checkUser);
   // count the no. of record found
