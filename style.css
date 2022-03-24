@@ -121,7 +121,8 @@ body {
   font-weight: bolder;
   font-size: 1.1rem;
 }
-.stat,.practically {
+.stat,
+.practically {
   background: #fa9806;
 }
 
@@ -221,21 +222,22 @@ body {
   font-size: 1.2vw;
   margin-left: -2rem;
 }
-.guide ul{
+.guide ul {
   list-style: none;
 }
 .guide ul li::before {
-  content: "\2022"; 
-  color: #ff8606; 
+  content: "\2022";
+  color: #ff8606;
   font-weight: bold;
-   display: inline-block; 
-  width: 2em; 
+  display: inline-block;
+  width: 2em;
   margin-left: 3.5em;
 }
-.guide ul li{
-   margin: 10px;
+.guide ul li {
+  margin: 10px;
 }
-.community,.guide {
+.community,
+.guide {
   background-color: rgb(54, 49, 49);
 }
 .btn3 {
@@ -468,7 +470,8 @@ body {
   #struct,
   #contact,
   .end,
-  #struct_mob, .contact {
+  #struct_mob,
+  .contact {
     background: url(images/faq_bg1.png) repeat center right fixed;
     background-size: 100vw 40vh;
   }
@@ -481,11 +484,61 @@ body {
     font-size: 3.7vw;
   }
   .guide ul li::before {
-    content: "\2022"; 
-    color: #ff8606; 
+    content: "\2022";
+    color: #ff8606;
     font-weight: bold;
-     display: inline-block; 
-    width: 1.5em; 
+    display: inline-block;
+    width: 1.5em;
     margin-left: -2em;
   }
+}
+
+.single-testimonial {
+  border: 7px solid #fff;
+  border-radius: 45px;
+  position: relative;
+  z-index: 2;
+  max-width: 90%;
+  margin: auto;
+}
+.single-testimonial::before {
+  content: "❝";
+  color: #ff8606;
+  font-size: 120px;
+  position: absolute;
+  left: -20px;
+  top: -50px;
+  background: #171717;
+  width: 126px;
+  height: 100px;
+}
+.single-testimonial::after {
+  content: "❞";
+  color: #ff8606;
+  font-size: 120px;
+  position: absolute;
+  right: -35px;
+  bottom: -10px;
+  background: #171717;
+  width: 100px;
+  height: 90px;
+  z-index: -1;
+}
+.swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #ff8606;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0.7;
+  --swiper-navigation-size: 30px;
+  color: #ff8606;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+  color: #ff8606;
 }

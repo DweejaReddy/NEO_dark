@@ -8,7 +8,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -18,11 +18,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
-    <title>NEO</title>
+    <title>NEO | E-CELL, VNIT</title>
 </head>
 <body>
   <!-- ==============================HEADER STARTS============================= -->
@@ -69,7 +72,7 @@
           </li>
         </ul>
         <li class="nav-item ml-5 d-none d-lg-block">
-          <a class="btn btn-dark bg btn1 btn" href="http://neo.ecellvnit.org/certificate/" target="_blank" role="button"> DOWNLOAD CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <a class="btn btn-dark bg btn1 btn" href="certificate.php" target="_blank" role="button"> DOWNLOAD CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
         </li>
@@ -87,7 +90,7 @@
           ></a>
         </li>
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="http://neo.ecellvnit.org/certificate/" target="_blank" class="nav-link"
+          <a href="certificate.php" target="_blank" class="nav-link"
             >Download Certificate<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
@@ -171,7 +174,48 @@
         </li>
     </section>
     <!-- ==============================HOME MOBILE ENDS============================= -->
-    
+
+
+    <!-- ==============================COMMUNITY BLOCK STARTS============================= -->
+    <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;">
+      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
+      <div class="row">
+        <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
+          <div class="heading text-center">❝ EntreLearners ❞</div>
+          <div class="para text-center"style="margin:3% 0">
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              <a href="https://t.me/EntreLearners" target="_blank"> 
+              <button class="btn btn3">Join Now</button></a>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/com.png" alt="" data-aos="fade-left"data-aos-duration="2000">
+        </div>
+      </div>
+    </section>
+<!-- ==============================COMMUNITY BLOCK ENDS============================= -->
+
+<!-- ==============================COMMUNITY MOBILE STARTS============================= -->
+    <section class="community container-fluid d-block d-md-none" style="margin-bottom:-3%;">
+      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
+      <div class="row">
+      <div class="col text-center">
+          <img src="images/com.png" class="text-center" alt="" width="350vw"
+          data-aos="fade-left"data-aos-duration="2000">
+        </div>
+        <div class="col text-center"data-aos="fade-right"data-aos-duration="2000">
+          <div class="heading text-center" style="font-size:10vw;">❝ EntreLearners ❞</div>
+          <div class="para text-center"style="margin:3% 0">
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              <a href="https://t.me/EntreLearners" target="_blank"> 
+              <button class="btn btn3" style="font-size:5vw;">Join Now</button></a>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- ==============================COMMUNITY MOBILE ENDS============================= -->
+
     <!-- ==============================ABOUT SECTION============================= -->
     <section class="container d-none d-lg-block " id="about">
       <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">ABOUT</div>
@@ -226,6 +270,17 @@
     </section>
     <!-- ==============================ABOUT MOBILE ENDS============================= -->
 
+    <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">NEO 2022 AFTERMOVIE</div>
+    <style>.video{position:relative;width:100%;height:0;padding-bottom:56.27198%;}.video iframe{position:absolute;top:0;width:100%;height:80%;}</style><div class="video mx-auto"><iframe width='560' height='329' src="https://www.youtube.com/embed/CKFwUfBk1Nk?&theme=dark&autoplay=1&autohide=2&rel=0"frameborder="0"></iframe></div>
+
+      <!-- <div class='youtube_codegena' id='CKFwUfBk1Nk' data-params='?&theme=dark&autoplay=1&autohide=2&rel=0' src='images/aftermovie.jpg'style='width:560px; height:329px;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script> -->
+
+      <!-- <div class='youtube_codegena' id='CKFwUfBk1Nk' data-params='?&theme=dark&autoplay=1&autohide=2&rel=0' src='https://drive.google.com/uc?export=view&id=1sIuNcaNoCm6bY90GQ8ybXRxYFWy1aUW3'style='width:560px; height:329px;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script> -->
+
+      
+
+    
+
     <!-- ==============================TIMELINE STARTS============================= -->
     <section id="struct" class="d-none d-md-block">
       
@@ -236,7 +291,7 @@
       <div class="text-right" style="margin-top:-247px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="300px"></div>
       <!-- <div class="text-right" style="margin-top:-234px;margin-right:20px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="300px"></a></div> -->
       <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
-      <div class="text-left" style="margin-top:-272px;margin-left:393px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
+      <div class="text-left" style="margin-top:-272px;margin-left:430px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
       <!-- <div class="text-left" style="margin-top:-269px;margin-left:393px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-right" src="images/date21.png" alt="" width="500px" height="350px"></a></div> -->
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
       <div class="text-right" style="margin-top:-249px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="330px"></div>
@@ -281,7 +336,7 @@
 
 
     <!-- ==============================GUIDELINES STARTS============================= -->
-    <section class="guide container-fluid mt-5" id="guide">
+    <!-- <section class="guide container-fluid mt-5" id="guide">
       <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">GUIDELINES</div>
       <div class="container para text-left">
         <div class=" text-center">
@@ -295,11 +350,11 @@
                     <div><i class="fas fa-angle-double-right px-3 py-3" style="color: #ff8606;"></i>Duration: <span style="font-weight: 800;"> 45 minutes.</span></div>
             </div>
       </div>
-    </section>
+    </section> -->
 <!-- ==============================GUIDELINES ENDS============================= -->
 
 <!-- ==============================PRACTICALLY SECTION STARTS============================= -->
-    <section class="practically container-fluid d-none d-md-block" id="practically" style="margin-bottom:70px;">
+    <!-- <section class="practically container-fluid d-none d-md-block" id="practically" style="margin-bottom:70px;">
       <div class=" text-center pt-3" style="font-size:1.7vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
       <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="20%"></a></div>
@@ -313,11 +368,11 @@
           <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width=80%"></a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ==============================PRACTICALLY SECTION STARTS============================= -->
 
 <!-- ==============================PRACTICALLY MOBILE STARTS============================= -->
-    <section class="practically container-fluid d-md-none d-block my-5" id="practically" style="margin-bottom:70px;">
+    <!-- <section class="practically container-fluid d-md-none d-block my-5" id="practically" style="margin-bottom:70px;">
       <div class=" text-center pt-3" style="font-size:2.8vw;" data-aos="fade-up" data-aos-duration="1000">Round1 and Round2 of NEO to be held only on the <span style="font-weight:bolder;">PRACTICALLY</span> app</div>
       <div class="text-center pt-2 pb-3">
       <a href="https://www.practically.com/web/index.php" target="_blank"><img data-aos="fade-up" data-aos-duration="1000" src="images/pract.png" alt="" width="35%"></a></div>
@@ -330,48 +385,10 @@
           <a href="https://apps.apple.com/us/app/practically-learning-app/id1507585284?ls=1" target="_blank"><img src="images/appstore.png" alt="" width="100%"></a>
         </div>
       </div>
-    </section>
+    </section> -->
 <!-- ==============================PRACTICALLY MOBILE ENDS============================= -->
 
-<!-- ==============================COMMUNITY BLOCK STARTS============================= -->
-    <section class="community container-fluid d-none d-md-block" style="margin-bottom:-3%;">
-      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
-      <div class="row">
-        <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
-          <div class="heading text-center">❝ EntreLearners ❞</div>
-          <div class="para text-center"style="margin:3% 0">
-              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-              <a href="https://t.me/EntreLearners" target="_blank"> 
-              <button class="btn btn3">Join Now</button></a>
-        </div>
-        </div>
-        <div class="col-md-6">
-          <img src="images/com.png" alt="" data-aos="fade-left"data-aos-duration="2000">
-        </div>
-      </div>
-    </section>
-<!-- ==============================COMMUNITY BLOCK ENDS============================= -->
 
-<!-- ==============================COMMUNITY MOBILE STARTS============================= -->
-    <section class="community container-fluid d-block d-md-none" style="margin-bottom:-3%;">
-      <div class="heading text-center"style="padding-top:2%;margin-top:-2%;"data-aos="fade-up"data-aos-duration="2000">JOIN THE COMMUNITY</div>
-      <div class="row">
-      <div class="col text-center">
-          <img src="images/com.png" class="text-center" alt="" width="350vw"
-          data-aos="fade-left"data-aos-duration="2000">
-        </div>
-        <div class="col text-center"data-aos="fade-right"data-aos-duration="2000">
-          <div class="heading text-center" style="font-size:10vw;">❝ EntreLearners ❞</div>
-          <div class="para text-center"style="margin:3% 0">
-              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
-              <a href="https://t.me/EntreLearners" target="_blank"> 
-              <button class="btn btn3" style="font-size:5vw;">Join Now</button></a>
-        </div>
-        </div>
-        
-      </div>
-    </section>
-    <!-- ==============================COMMUNITY MOBILE ENDS============================= -->
 
   <!-- ==============================STATS STARTS============================= -->
     <section id="stats" class="stat"data-aos="fade-up"
@@ -383,20 +400,23 @@
             <div class="row text-center">
               <div class="col-md-4">
                 <div class="stat-items">
-                  <i class="fas fa-user-friends fa-4x"></i>
-                  <h3><span class="counter-value" data-count="10000">>0</span><span>+</span></h3>
-                  <p>Number of Participants</p>
+                  <i class="fas fa-handshake fa-4x"></i>
+                  <h3><span class="counter-value" data-count="750">>0</span><span>+</span></h3>
+                  <p>ORIENTATIONS</p>
                 </div>
               </div>
-              <div class="col-md-4 text-center d-none d-md-block"data-aos="fade-down"
-              data-aos-duration="2000">
-                <h3>Our Previous Participations</h3>
+              <div class="col-md-4">
+                <div class="stat-items">
+                  <i class="fas fa-user-friends fa-4x"></i>
+                  <h3><span class="counter-value" data-count="450">>0</span><span>+</span></h3>
+                  <p>SCHOOLS</p>
+                </div>
               </div>
               <div class="col-md-4">
                 <div class="stat-items">
                   <i class="fas fa-university fa-4x"></i>
-                  <h3><span class="counter-value" data-count="750">>0</span><span>+</span></h3>
-                  <p>Number of Schools</p>
+                  <h3><span class="counter-value" data-count="10000">>0</span><span>+</span></h3>
+                  <p>REGISTRATIONS</p>
                 </div>
               </div>
             </div>
@@ -429,12 +449,139 @@
         <div class="item px-2">
           <img src="images/pic6.jpeg" alt="">
         </div>
+        <!-- <div class="item px-2">
+          <img src="images/pic7.jpeg" alt="">
+        </div> -->
         <div class="item px-2">
           <img src="images/pic8.jpeg" alt="">
         </div>
+        <!-- <div class="item px-2">
+          <img src="images/pic9.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic10.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic11.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic12.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic13.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic14.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic15.jpeg" alt="">
+        </div>
+        <div class="item px-2">
+          <img src="images/pic16.jpeg" alt="">
+        </div> -->
+
     </div>
+    <div class="text-center">
+    <a class="btn btn-dark bg btn1 btn mb-5" data-aos="fade-up"
+    data-aos-duration="2000" href="gallery.php" target="_blank" role="button">SEE FULL GALLERY<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+    </svg></a>
+  </div>
+
     </section>
     <!-- ==============================NEO PICTURES ENDS============================= -->
+
+
+    <!-- STUDENT TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="heading text-center my-4"data-aos="fade-up" data-aos-duration="2000">WHAT OUR PARTICIPANTS ARE SAYING ABOUT NEO?</div>
+        <div class="swiper mySwiper px-3 pb-5 text-white" id="videos" data-aos="fade-up"
+      data-aos-duration="2000">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide px-1 pt-4">
+          <div class="single-testimonial  text-center">
+            <video width="320" style="padding-top: 70px;max-width: 90%;" controls>
+              <source src="videos/Y2Mate.is - Inspiring Royalty Free Background Music For Videos - Mix-czYimCfcyWc-160k-1646814428293_1.mov" type="video/mp4">
+            </video>
+            <div class="student-info text-center">
+              <p style="color: #ff8606;font-size: 20px;">Thilan Keshav. M</p>
+              <p>Class 7</p>
+              <p style="color: #ff8606;font-size: 18px;">Velammal Vidyalaya, Alapakkam, Chennai</p>
+            </div>
+            <p class="px-3"><b> "My goal in life changed completely because of NEO, now I want to become an entrepreneur in field of automobiles."</b></p>
+          </div>
+        </div>
+
+
+      <div class="swiper-slide px-1 pt-4">
+        <div class="single-testimonial  text-center">
+          <video width="320" style="padding-top: 70px;max-width: 90%;" controls>
+            <source src="videos/Y2Mate.is - Inspiring Royalty Free Background Music For Videos - Mix-czYimCfcyWc-160k-1646814428293.mov" type="video/mp4">
+          </video>
+          <div class="student-info text-center">
+            <p style="color: #ff8606;font-size: 20px;">Charvi Mandowara</p>
+            <p>Class 8</p>
+            <p style="color: #ff8606;font-size: 18px;">St.Raphael's H.S school, Indore</p>
+          </div>
+          <p class="px-3"><b>“Mentors were very helpful. I learned many new things about entrepreneurship, marketing strategies and finance.”</b> </p>
+        </div>
+      </div>
+
+      
+      <div class="swiper-slide px-1 pt-4">
+        <div class="single-testimonial  text-center">
+          <video width="320" style="padding-top: 70px;max-width: 90%;" controls>
+            <source src="videos/Shikhar Salgarkar NEO Testimonial - Sheetal Salgarkar.mov" type="video/mp4">
+          </video>
+
+          <div class="student-info text-center">
+            <p style="color: #ff8606;font-size: 20px;">Shikhar Salgarkar</p>
+            <p>Class 10</p>
+            <p style="color: #ff8606;font-size: 18px;">Ashoka Universal School, Nashik</p>
+          </div>
+          <p class="px-3"><b>“NEO was different from other Olympiads. I learned to think on my feet, analyze ideas and discuss it with a team.”</b> </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide px-1 pt-4">
+        <div class="single-testimonial  text-center">
+          <video width="320" style="padding-top: 70px;max-width: 90%;" controls>
+            <source src="videos/NEO Testimonial Video_Mannan Jain.mov" type="video/mp4">
+          </video>
+
+          <div class="student-info text-center">
+            <p style="color: #ff8606;font-size: 20px;">Mannan Jain</p>
+            <p>Class 8</p>
+            <p style="color: #ff8606;font-size: 18px;">National Center for Excellence, Bangalore</p>
+          </div>
+          <p class="px-3"><b>“My best memories in NEO 2022 were Baby Shark Tank and the Boardroom Discussion. It was fun to interact with new students.”</b> </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide px-1 pt-4">
+        <div class="single-testimonial  text-center">
+          <video width="320" style="padding-top: 70px;max-width: 90%;" controls>
+            <source src="videos/Y2Mate_is_Inspiring_Royalty_Free_Background_Music_For_Videos_Mix.mov" type="video/mp4">
+          </video>
+          <div class="student-info text-center">
+            <p style="color: #ff8606;font-size: 20px;">Soumil Mitra</p>
+            <p>Class 9</p>
+            <p style="color: #ff8606;font-size: 18px;">South Point High School, Kolkata</p>
+          </div>
+          <p class="px-3"><b>“NEO is much more than a olympiad. It taught me real life solution to problems that can help to change world for better.”</b> </p>
+        </div>
+      </div>
+      
+        
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+      </div>
+    </section>
 
     <!-- ==============================FAQS STARTS============================= -->
     <section id="faqs" class="faq">
@@ -769,6 +916,38 @@ animateValue(obj, 0, 10000, 5000);
     }
 })
    </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    slidesPerGroup: 1,
+    loop: true,
+    // loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+        },
+  });
+</script>
+
    <script>
      $(window).scroll(function() {
   var a = 0;

@@ -196,7 +196,7 @@
         <li class="nav-item ml-5 d-none d-lg-block">
           <a
             class="btn btn-dark bg btn1 btn"
-            href="http://neo.ecellvnit.org/certificate/"
+            href="certificate.php"
             target="_blank"
             role="button"
           >
@@ -242,7 +242,7 @@
           ></a>
         </li>
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="http://neo.ecellvnit.org/certificate/" target="_blank" class="nav-link"
+          <a href="certificate.php" target="_blank" class="nav-link"
             >Download Certificate<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
