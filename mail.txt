@@ -1,0 +1,30 @@
+require_once "Mail.php";
+foreach ($_POST['email'] as $index => $email) {
+    $name=$_POST['name'][$index];
+
+
+    $from = "E-CELL VNIT <noreply@ecellvnit.org>";    //your mail id
+    $to = $email;
+    $subject = "Registration successful";
+    $body = "Thank You $name for registering with us.\n\nYour Login credentials are\n\nUSERNAME :- $USERNAME\nPASSWORD :- $PASSWORD";
+    $host = "ssl://sharedlinux.cloudhostdns.net";
+    $port = "465";
+    $username = "noreply@ecellvnit.org";          //your mail id
+    $password = "Ecellvnit123@";                      //password of this mail id
+
+    $headers = array('From' => $from,
+        'To' => $to,
+        'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+        array('host' => $host,
+            'port' => $port,
+            'auth' => true,
+            'username' => $username,
+            'password' => $password));
+
+    $mail = $smtp->send($to, $headers, $body);
+
+    $i++;
+    if($i==$TEAMSIZE) break;
+
+}
