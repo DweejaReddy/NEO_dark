@@ -168,7 +168,7 @@
           <a class="btn btn-dark bg btn1 btn my-1" data-aos="fade-right" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate/" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate.php" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
         </li>
