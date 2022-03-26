@@ -168,7 +168,7 @@
           <a class="btn btn-dark bg btn1 btn my-1" data-aos="fade-right" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate/" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate.php" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
         </li>
@@ -271,13 +271,8 @@
     <!-- ==============================ABOUT MOBILE ENDS============================= -->
 
     <div class="heading text-center my-5" data-aos="fade-up" data-aos-duration="2000">NEO 2022 AFTERMOVIE</div>
-    <style>.video{position:relative;width:100%;height:0;padding-bottom:56.27198%;}.video iframe{position:absolute;top:0;width:100%;height:80%;}</style><div class="video mx-auto"><iframe width='560' height='329' src="https://www.youtube.com/embed/CKFwUfBk1Nk?&theme=dark&autoplay=1&autohide=2&rel=0"frameborder="0"></iframe></div>
+    <style>.video{position:relative;width:100%;height:0;padding-bottom:56.27198%;}.video iframe{position:absolute;top:0;width:100%;height:100%;}</style><div class="video mx-auto mb-5"><iframe width='560' height='329' src="https://www.youtube.com/embed/CKFwUfBk1Nk?&theme=dark&autoplay=1&autohide=2&rel=0"frameborder="0"></iframe></div>
 
-      <!-- <div class='youtube_codegena' id='CKFwUfBk1Nk' data-params='?&theme=dark&autoplay=1&autohide=2&rel=0' src='images/aftermovie.jpg'style='width:560px; height:329px;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script> -->
-
-      <!-- <div class='youtube_codegena' id='CKFwUfBk1Nk' data-params='?&theme=dark&autoplay=1&autohide=2&rel=0' src='https://drive.google.com/uc?export=view&id=1sIuNcaNoCm6bY90GQ8ybXRxYFWy1aUW3'style='width:560px; height:329px;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script> -->
-
-      
 
     
 
@@ -787,7 +782,8 @@
  
       </div>
       <div class="col-md-4 text-white text-center foot1 mt-md-3">
-        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a>
+        <p>For Association Opportunities and Queries Contact: 
+          <!-- <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a> -->
           <br><a class="foot" href="mailto:neo.pr.ecellvnit@gmail.com">neo.pr.ecellvnit@gmail.com</a></p>
       </div>
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>

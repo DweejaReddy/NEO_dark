@@ -408,7 +408,8 @@
  
       </div>
       <div class="col-md-4 text-white text-center foot1 mt-md-3">
-        <p>For Association Opportunities and Queries Contact: <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a>
+        <p>For Association Opportunities and Queries Contact: 
+          <!-- <br><a class="foot" href="mailto:neo@ecellvnit.org">neo@ecellvnit.org</a> -->
           <br><a class="foot" href="mailto:neo.pr.ecellvnit@gmail.com">neo.pr.ecellvnit@gmail.com</a></p>
       </div>
       <div class="col-md-3 text-white text-center pb-2 foot1">All rights reserved <br> &copy;<a class="foot" href="https://www.ecellvnit.org/" target="_blank">E-Cell Vnit</a></div>
