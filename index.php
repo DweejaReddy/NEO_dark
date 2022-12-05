@@ -71,11 +71,11 @@
             <a href="#contact" class="nav-link">Contact Us <i class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none" style="float: right;" ></i></a>
           </li>
         </ul>
-        <li class="nav-item ml-5 d-none d-lg-block">
+        <!-- <li class="nav-item ml-5 d-none d-lg-block">
           <a class="btn btn-dark bg btn1 btn" href="certificate.php" target="_blank" role="button"> DOWNLOAD CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-        </li>
+        </li> -->
         <li class="nav-item ml-3 d-none d-lg-block">
           <a class="btn btn-dark bg  btn2 btn" href="images/NEO brochure.pdf" target="_blank" role="button">BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -89,14 +89,14 @@
             ></i
           ></a>
         </li>
-        <li class="nav-item d-block d-lg-none ml-3">
+        <!-- <li class="nav-item d-block d-lg-none ml-3">
           <a href="certificate.php" target="_blank" class="nav-link"
             >Download Certificate<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
             ></i
           ></a>
-        </li>
+        </li> -->
         <!-- <li class="nav-item ml-3 d-none d-lg-block">
           <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -111,7 +111,7 @@
       <div class="row">
         <div class="col-lg-5 img-fluid img-responsive showcase-left"><img class=" ml-4" src="images/NEO_spons.png" alt="" height="220px">
           <div class="heading3 text-center mt-1 mb-4">Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you <br></div>
-          <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
+          <div class="para" style="opacity: 0.7;font-size:1.3vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 12th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
           </div>
       
           <div class="text-center align-items-end d-none d-lg-block">
@@ -153,7 +153,7 @@
         <img src="images/NEO_spons.png" data-aos="fade-left" data-aos-duration="1000" alt=""  height="150px" >
       </div>
       <div class="text-white text-center pt-1" >Awakening the <span style="color: #ff8606;">Entrepreneur</span> within you</div>
-      <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 10th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
+      <div class="text-center text-white" style="opacity: 0.7;font-size: 3.7vw;">National Entrepreneurship Olympiad is a nationwide examination for the students of class 7th to 12th grade to nurture and test their entrepreneurial skills. This olympiad includes sections like Basic Entrepreneurial Concepts, Value Proposition, Finances, Public Speaking, Logical Analytics, English Proficiency.
             </div>
      
       <marquee behavior="" direction=""><h6 style="color: #ff8606;font-size: 4.5vw;font-weight: 800;" class="mt-2 text-center">Registrations for NEO 2022 have been closed!!</h6></marquee>
@@ -168,9 +168,9 @@
           <a class="btn btn-dark bg btn1 btn my-1" data-aos="fade-right" data-aos-duration="1000" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-          <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate.php" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <!-- <a class="btn btn-dark bg btn1 btn mr-1 my-1" data-aos="fade-left" data-aos-duration="1000" href="http://neo.ecellvnit.org/certificate.php" target="_blank" role="button">CERTIFICATE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-          </svg></a>
+          </svg></a> -->
         </li>
     </section>
     <!-- ==============================HOME MOBILE ENDS============================= -->
@@ -183,7 +183,7 @@
         <div class="col-md-4"style="margin-left:10%;margin-top:5%"data-aos="fade-right"data-aos-duration="2000">
           <div class="heading text-center">❝ EntreLearners ❞</div>
           <div class="para text-center"style="margin:3% 0">
-              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-12th standard students
               <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btn3">Join Now</button></a>
         </div>
@@ -206,7 +206,7 @@
         <div class="col text-center"data-aos="fade-right"data-aos-duration="2000">
           <div class="heading text-center" style="font-size:10vw;">❝ EntreLearners ❞</div>
           <div class="para text-center"style="margin:3% 0">
-              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-10th standard students
+              Join this community filled with Entrepreneurship enthusiasts to get a deeper knowledge, one on one discussion and <span style="color:yellow;">THINK, IDEATE AND CREATE</span>  your ideas with other members of this engaging community.<br>Exclusively for 7th-12th standard students
               <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btn3" style="font-size:5vw;">Join Now</button></a>
         </div>
@@ -609,7 +609,7 @@
                 </div>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
-                    Students of Class 7th, 8th, 9th, and 10th are eligible
+                    Students of Class 7th, 8th, 9th, 10th, 11th and 12th are eligible
                   </div>
                 </div>
               </div>
@@ -639,7 +639,7 @@
           <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
               <div class="accordion-header" id="panelsStayOpen-headingFour">
                 <h2 class="clearfix mb-0">
-                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">On what basis will the papers be checked <br> for students of Class 7th, 8th, 9th and 10th?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
+                  <a class="btn btn-link" data-toggle="collapse" data-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">On what basis will the papers be checked <br> for students of Class 7th, 8th, 9th, 10th, 11th and 12th?<i class="fa fa-angle-down d-none d-lg-block"></i></a>
                 </h2>
               </div>
               <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
