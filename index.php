@@ -693,21 +693,21 @@
       <div class="row align-items-center pb-3 ">
         <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/neha.jfif" alt="" class="user">
+            <img src="images/pranay.jfif" alt="" class="user">
             <blockquote >Pranay Gaidhane</blockquote>
             <p>8308728488</p>
           </div>
         </div>
         <div class="col-md-4 text-center data"data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/kushagra.jfif" alt="" class="user" width="220px">
+            <img src="images/shravani.jfif" alt="" class="user" width="220px">
             <blockquote>Shravani Bongade</blockquote>
             <p>8275782707</p>
           </div>
         </div>
         <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
           <div class="profile">
-            <img src="images/tanmay.jfif" alt="" class="user">
+            <img src="images/aman.jfif" alt="" class="user">
             <blockquote>Aman Nahar</blockquote>
             <p>9589817857</p>
           </div>
@@ -715,21 +715,21 @@
         
           <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/harsh.jfif" alt="" class="user">
+              <img src="images/sahitya.jfif" alt="" class="user">
               <blockquote>Sahitya Saripaka</blockquote>
               <p>9573324438</p>
             </div>
           </div>
           <div class="col-md-4 text-center data"data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/dweeja.jfif" alt="" class="user" width="220px">
+              <img src="images/ashlesha.jfif" alt="" class="user" width="220px">
               <blockquote>Ashlesha Deshpande</blockquote>
               <p>9322533859</p>
             </div>
           </div>
           <div class="col-md-4 text-center data" data-aos="fade-up" data-aos-duration="2000">
             <div class="profile">
-              <img src="images/vandana.jfif" alt="" class="user">
+              <img src="images/khushi.jfif" alt="" class="user">
               <blockquote>Khushi Tank</blockquote>
               <p>8275844551</p>
             </div>
