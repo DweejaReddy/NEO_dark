@@ -55,12 +55,12 @@
           <li class="nav-item d-lg-none">
             <a href="#about_mob" class="nav-link">About Us<i class="fas fa-arrow-alt-circle-right  ml-3 mt-0" style="float: right;" ></i></a>
           </li>
-          <li class="nav-item d-none d-lg-block">
+          <!-- <li class="nav-item d-none d-lg-block">
            <a href="#struct" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-none"></i></a>
           </li>
           <li class="nav-item d-lg-none">
             <a href="#struct_mob" class="nav-link">Timeline<i class="fas fa-arrow-alt-circle-right ml-3 mt-0" style="float: right;" ></i></a>
-           </li>
+           </li> -->
           <li class="nav-item">
             <a href="#faqs" class="nav-link">FAQs<i class="fas fa-arrow-alt-circle-right ml-3 mt-0  d-lg-none" style="float: right;" ></i></a>
           </li>
@@ -97,11 +97,11 @@
             ></i
           ></a>
         </li> -->
-        <!-- <li class="nav-item ml-3 d-none d-lg-block">
+        <li class="nav-item ml-3 d-none d-lg-block">
           <a class="btn btn-dark bg  btn2 btn" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-        </li> -->
+        </li>
       </div>
     </nav>
 <!-- ==============================HEADER ENDS============================= -->
@@ -115,10 +115,10 @@
           </div>
       
           <div class="text-center align-items-end d-none d-lg-block">
-            <!-- <a class="btn btn-dark bg btn btn2 mt-3 mr-2 showcase-left" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <a class="btn btn-dark bg btn btn2 mt-3 mr-2 showcase-left" href="register.php" target="_blank" role="button">REGISTER NOW<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
-          <a class="btn btn-dark bg btn btn1 mt-3 mr-2" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <!-- <a class="btn btn-dark bg btn btn1 mt-3 mr-2" href="images/NEO_studymaterial.pdf" target="_blank" role="button">STUDY MATERIAL<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
           </svg></a>
           <a class="btn btn-dark bg showcase-right1 mt-3 btn2 btn" href="images/NEO brochure.pdf" target="_blank" role="button"> BROCHURE<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -277,17 +277,17 @@
     
 
     <!-- ==============================TIMELINE STARTS============================= -->
-    <section id="struct" class="d-none d-md-block">
+    <!-- <section id="struct" class="d-none d-md-block">
       
       <div class="sticky" style="color: #ff8606;font-weight: bolder;margin-left: -2.5vw;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
       <div class="pb-5 my-5">
         <div class="bord"></div>
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
       <div class="text-right" style="margin-top:-247px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="300px"></div>
-      <!-- <div class="text-right" style="margin-top:-234px;margin-right:20px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="300px"></a></div> -->
+      
       <div class="text-right"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div>
       <div class="text-left" style="margin-top:-272px;margin-left:430px;"><img class="round" data-aos="fade-right" src="images/date2.png" alt="" width="500px" height="350px"></div>
-      <!-- <div class="text-left" style="margin-top:-269px;margin-left:393px;"><a href="https://www.practically.com/web/index.php"><img class="round" data-aos="fade-right" src="images/date21.png" alt="" width="500px" height="350px"></a></div> -->
+      
       <div class="text-center"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div>
       <div class="text-right" style="margin-top:-249px;margin-right:20px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="330px"></div>
           <div class="row">
@@ -299,23 +299,21 @@
   
   </div>
 </div>
-    </section>
+    </section> -->
     <!-- ==============================TIMELINE ENDS============================= -->
 
     <!-- ==============================TIMELINE MOBILE STARTS============================= -->
-    <section class="d-md-none d-block" id="struct_mob" >
+    <!-- <section class="d-md-none d-block" id="struct_mob" >
       <div class="heading3 text-center sticky-md py-4 " style="color: #ff8606;font-weight: bolder;">NATIONAL ENTRPRENEURSHIP OLYMPIAD <br> <br> <span class="text-center" style="color: white;font-weight: bold;">COMPETITION TIMELINE</span></div>
       <div class="bord1"></div>
       <div class="row">
       <div class="col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r1.png" alt="" width="500px"></div>
     <div class="col-11"></div></div>
     <div class="text-right" style="margin-top:-137px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date1.png" alt="" height="170px"></div>
-    <!-- <div class="text-right" style="margin-top:-130px;margin-right:-25px"><img class="round" data-aos="fade-left" src="images/date12.png" alt="" height="170px"></div> -->
     <div class="row">
       <div class="col-5"></div>
       <div class=" col-2"><img class="round" data-aos="fade-left" data-aos-duration="1000" src="images/r2.png" alt="" width="500px"></div></div>
       <div class="text-left" style="margin-top:-143px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date2.png" alt=""height="200px"></div>
-      <!-- <div class="text-left" style="margin-top:-158px;margin-left:-18px"><img class="round" data-aos="fade-right" src="images/date21.png" alt=""height="200px"></div> -->
       <div class="row">
       <div class="text-center col-1"><img class="round" data-aos="fade-right" data-aos-duration="1000" src="images/r3.png" alt="" width="500px"></div></div>
       <div class="text-right" style="margin-top:-130px;margin-right:-25px;"><img class="round" data-aos="fade-left" src="images/date3.png" alt="" height="200px"></div>
@@ -326,7 +324,7 @@
   </div>
   </div>
 </div>
-    </section>
+    </section> -->
 <!-- ==============================TIMELINE MOBILE ENDS============================= -->
 
 
