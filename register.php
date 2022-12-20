@@ -80,6 +80,8 @@
                   <option class="option" value="8">8</option>
                   <option class="option" value="9">9</option>
                   <option class="option" value="10">10</option>
+                  <option class="option" value="11">11</option>
+                  <option class="option" value="12">12</option>
                 </select>
                 </div>
 </div>
