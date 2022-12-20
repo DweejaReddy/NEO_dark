@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>Registration | NEO</title> -->
-    <title>Registrations Closed | NEO 22,E-CELL,VNIT</title>
+    <title>Registrations| NEO 23,E-CELL,VNIT</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
@@ -49,7 +49,7 @@
 }
 
     </style>
-<!--<body>
+<body>
      <form  class="py-4" method="post" action="store_details.php">
             <div class="heading text-center mx-5">NEO REGISTRATION FORM</div>
             <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
@@ -154,9 +154,9 @@
         </div>
     </div>
           </form> 
-</body>-->
+</body>
 
-<body style="background-color: #171717;">
+<!-- <body style="background-color: #171717;">
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="" style="color:white;">
@@ -172,5 +172,5 @@
             </div>
         </div>
         </div>
-</body>
+</body> -->
 </html>
