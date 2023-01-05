@@ -76,7 +76,8 @@ $name = $_SESSION['name'];
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="" style="color:white;">
-                  <?php echo "<h1>Your have already registered,<b style=color:#ff8606> $name!</b><br> </h1><h4>You will receive the study material and examination admit card soon through <span style=color:#ff8606>Email</span> and <span style=color:#ff8606>WhatsApp medium<br></h4><h4>If you still have not joined the community, JOIN NOW to know different facts of Entrepreneurship.<br> <span style=color:#ff8606>Link is also on the home page </span></h4>";?><br>
+                  <?php echo "<h1>Your have already registered,<b style=color:#ff8606> $name!</b><br> 
+                  <h4>If you still have not joined the community, JOIN NOW to know different facts of Entrepreneurship.<br> <span style=color:#ff8606>Link is also on the home page </span></h4>";?><br>
                   <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btnth">Join Now</button></a>
                 </div>
