@@ -144,12 +144,16 @@
             </div>
         </div>
 
-        <a href="images/NEO'23 T&C.pdf" target="_blank" style="font-size: smaller;color: #ff8606;margin-left: 20px;">*Terms and Conditions applied</a>
-
+        <div class="form-check" style="margin-left: 20px;">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault" style="font-size: smaller;color: #ff8606;">
+        *By Filling this form you agree to the <a href="images/NEO'23 T&C.pdf" target="_blank" style="color: #ff8606;">Terms and Conditions</a> applied
+        </label>
+      </div>
         <div class="row align-items-center">
             <div class="col-4"></div>
             <div class="col-6">
-                <button type="submit"  name="submit_form"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="SUBMIT">Submit</button>
+                <button type="submit"  name="submit_form" id="btncheck"  class="btn btn-dark btn-lg my-5" style="background-color: #ff8606;" value="SUBMIT">Submit</button>
             
             
     </div>
@@ -158,6 +162,17 @@
         </div>
     </div>
           </form> 
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <script>
+            $(function() {
+              var chk = $('#flexCheckDefault');
+              var btn = $('#btncheck');
+
+              chk.on('change', function() {
+                btn.prop("disabled", !this.checked);//true: disabled, false: enabled
+              }).trigger('change'); //page load trigger event
+            });
+          </script>
 </body>
 
 <!-- <body style="background-color: #171717;">
