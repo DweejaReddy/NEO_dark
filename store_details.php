@@ -20,16 +20,16 @@ session_start();
     $school= mysqli_real_escape_string($con, $_POST['school']);
     $city= mysqli_real_escape_string($con, $_POST['city']);
     $class= mysqli_real_escape_string($con, $_POST['class']);
-    $atal = mysqli_real_escape_string($con, $_POST['atal']);
+    $src = mysqli_real_escape_string($con, $_POST['src']);
     $_SESSION['name']=$name;
-    $checkUser = "SELECT * FROM neo21entries where contact = '$contact'";
+    $checkUser = "SELECT * FROM neo22 where contact = '$contact'";
     $result = mysqli_query($con, $checkUser);
     $count = mysqli_num_rows($result);
     if($count>0){
       header('LOCATION:success.php');
     }
     else{
-      $sql = "INSERT into `neo21`.`neo21entries` (name, class, school, city, email, contact, whatsapp, atal) VALUES ('$name', '$class', '$school', '$city', '$email', '$contact', '$whatsapp', '$atal')";
+      $sql = "INSERT into `neo21`.`neo22` (name, class, school, city, email, contact, whatsapp, src) VALUES ('$name', '$class', '$school', '$city', '$email', '$contact', '$whatsapp', '$src')";
         
         if($con->query($sql)==true){
             header('LOCATION:thanks.php');

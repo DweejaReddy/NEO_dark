@@ -130,8 +130,8 @@
         <div class="row align-items-center">
             <div class="col-md-9 labels ml-3 col-10">
               <div class="form-group drop">
-                <label for="atal">How did you get to know about NEO?*</label>
-                <select name="atal" id="atal" class="select" required>
+                <label for="src">How did you get to know about NEO?*</label>
+                <select name="src" id="src" class="select" required>
                   <div class="btn btn-light">
                   <option class="option" value="">--Choose one option below--</option>
                   <option class="option" value="atal">Atal tinkering lab/Atal Innovation Mission/NITI Aayog</option>
@@ -143,6 +143,8 @@
                 </div>
             </div>
         </div>
+
+        <a href="images/NEO'23 T&C.pdf" target="_blank" style="font-size: smaller;color: #ff8606;margin-left: 20px;">*Terms and Conditions applied</a>
 
         <div class="row align-items-center">
             <div class="col-4"></div>
