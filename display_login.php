@@ -5,7 +5,7 @@
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       
 		
-      if($_POST['username'] == "neo21" && $_POST['password'] == "123") {
+      if($_POST['username'] == "neo22" && $_POST['password'] == "123") {
         //session_register("myusername"); 
         $_SESSION['login_user'] = $_POST['username'];
         header("location: display_table.php");

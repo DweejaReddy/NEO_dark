@@ -39,7 +39,6 @@
             <tr>
                 <th scope="col">sno</th>
                 <th scope="col">Name</th>
-                <!-- <th scope="col">Contact Details</th> -->
                 <th scope="col">Email</th>
                 <th scope="col">Contact</th>
                 <th scope="col">whatsapp</th>
