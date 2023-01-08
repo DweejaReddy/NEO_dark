@@ -152,21 +152,21 @@
               ></i
             ></a>
           </li>
-          <li class="nav-item d-none d-lg-block">
+          <!-- <li class="nav-item d-none d-lg-block">
             <a href="index.php#struct" class="nav-link"
               >Timeline<i
                 class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-none"
               ></i
             ></a>
-          </li>
-          <li class="nav-item d-lg-none">
+          </li> -->
+          <!-- <li class="nav-item d-lg-none">
             <a href="index.php#struct_mob" class="nav-link"
               >Timeline<i
                 class="fas fa-arrow-alt-circle-right ml-3 mt-0"
                 style="float: right"
               ></i
             ></a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="index.php#faqs" class="nav-link"
               >FAQs<i
@@ -175,14 +175,14 @@
               ></i
             ></a>
           </li>
-          <li class="nav-item d-lg-block d-none">
+          <!-- <li class="nav-item d-lg-block d-none">
             <a href="sponsors.php" class="nav-link"
               >Sponsors<i
                 class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
                 style="float: right"
               ></i
             ></a>
-          </li>
+          </li> -->
           <li class="nav-item mr-md-5">
             <a href="index.php#contact" class="nav-link"
               >Contact Us
@@ -196,11 +196,11 @@
         <li class="nav-item ml-5 d-none d-lg-block">
           <a
             class="btn btn-dark bg btn1 btn"
-            href="certificate.php"
+            href="register.php"
             target="_blank"
             role="button"
           >
-            DOWNLOAD CERTIFICATE<svg
+            REGISTER NOW<svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -242,8 +242,8 @@
           ></a>
         </li>
         <li class="nav-item d-block d-lg-none ml-3">
-          <a href="certificate.php" target="_blank" class="nav-link"
-            >Download Certificate<i
+          <a href="register.php" target="_blank" class="nav-link"
+            >REGISTER NOW<i
               class="fas fa-arrow-alt-circle-right ml-3 mt-0 d-lg-none"
               style="float: right"
             ></i
