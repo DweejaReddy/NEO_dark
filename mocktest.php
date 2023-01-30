@@ -50,7 +50,7 @@
 
     </style>
 <body>
-     <form  class="py-4" method="post" action="store_details.php">
+     <form style="padding-bottom:5rem;padding-top:3rem;" method="post" action="store_details.php">
             <div class="heading text-center mx-5">MOCK TEST</div>
             <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
                 <div class="row">
