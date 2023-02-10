@@ -50,7 +50,7 @@
 
     </style>
 <body>
-     <form  class="py-4" method="post" action="store_details.php">
+     <form style="padding-bottom:5rem;padding-top:3rem;" method="post" action="store_details.php">
             <div class="heading text-center mx-5">MOCK TEST</div>
             <div class="container mt-3"style="background-color: black; background-clip:content-box; border-radius:3%;">
                 <div class="row">
@@ -64,7 +64,7 @@
                 <div class="col-md-6 text-center">
                 <div class="row align-items-center text-center" style="margin: 1.5em;">
 
-                <a class="btn btn-dark bg btn btn1 mx-auto text-center " style="width:70%; margin:2em;" href="https://docs.google.com/forms/d/e/1FAIpQLSfmz1c4pb62skTdRBS4ixxPZ-xttls46Gw6YSaNeQdN8HjrHQ/viewform">7-8th Class</a>
+                <a class="btn btn-dark bg btn btn1 mx-auto text-center " style="width:70%; margin:2em;" href="https://docs.google.com/forms/d/e/1FAIpQLSfWx-k54t1CkI3nDBO_K032FS_mtPIFQ9KBvNtpi1AzqZHyRg/viewform">7-8th Class</a>
                 <a class="btn btn-dark bg btn btn1 mx-auto text-center" style="width:70%; margin:2em;" href="https://docs.google.com/forms/d/e/1FAIpQLSfmz1c4pb62skTdRBS4ixxPZ-xttls46Gw6YSaNeQdN8HjrHQ/viewform">9-10th Class</a>
                 <a class="btn btn-dark bg btn btn1 mx-auto text-center" style="width:70%; margin:2em;" href="https://docs.google.com/forms/d/e/1FAIpQLSczFvLRvdN2eG5Nr-cbPQ3OiprZyx_t6UWL_aEmYGeh-9UyeQ/viewform">11-12th Class</a>
             
