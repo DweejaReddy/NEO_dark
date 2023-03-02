@@ -257,19 +257,19 @@
     <div class="row align-items-center">
       <div class="mx-auto">
         <div class="card">
-          <a href="https://www.practically.com/web/index.php" target="_blank">
-            <img src="images/practically.png" alt="image" />
+          <a href="https://unacademy.com/" target="_blank">
+            <img src="images/unacadmey.png" alt="image" />
           </a>
         </div>
       </div>
     </div>
 
-    <div class="heading1 text-center pb-4">Co-Presenting Sponsor</div>
+    <div class="heading1 text-center pb-4">Knowledge Partner</div>
     <div class="row align-items-center">
       <div class="mx-auto">
         <div class="card">
-          <a href="https://www.akudo.in/" target="_blank">
-            <img src="images/akudo.jpg" alt="image" />
+          <a href="https://metamorphosisedu.com/" target="_blank">
+            <img src="images/metamorphosis.png" alt="image" />
           </a>
         </div>
       </div>
