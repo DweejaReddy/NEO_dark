@@ -59,7 +59,7 @@
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="" style="color:white;">
-                  <?php echo "<h2>Dear Student,<br>Please<span style=color:#ff8606> verify your registered name and e-mail address</span> you have entered.<h5><br><br>If you have <span style=color:#ff8606>successfully</span> given the NEO olympiad 2023 and still not able to get your certificate, mail your query at <a style=color:#ff8606;text-decoration:none href=mailto:neo.pr.ecellvnit@gmail.com> neo.pr.ecellvnit@gmail.com</a><br><br>Join the community to know more about entrepreneurship";?><br><br>
+                  <?php echo "<h2>Dear Student,<br>Please<span style=color:#ff8606> verify your registered name and e-mail address</span> you have entered.<h5><br><br>If you have <span style=color:#ff8606>successfully</span> given the NEO olympiad 2023 and still not able to get your result or certificate, mail your query at <a style=color:#ff8606;text-decoration:none href=mailto:neo.pr.ecellvnit@gmail.com> neo.pr.ecellvnit@gmail.com</a><br><br>Join the community to know more about entrepreneurship";?><br><br>
                   <a href="https://t.me/EntreLearners" target="_blank"> 
               <button class="btn btnth">Join Now</button></a><br><br>
               Do visit the NEO website for latest updates</h3>
