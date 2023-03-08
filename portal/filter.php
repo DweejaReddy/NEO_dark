@@ -7,7 +7,7 @@ require('fpdf.php');
 
 // to store the connection
 // $con = mysqli_connect($server, $username, $password, $dbname);
-$con = mysqli_connect("localhost","root","","neo21");
+$con = mysqli_connect("localhost","ias2020","ecell123","neo21");
 
 // to check whether the db is connected or not
 if (!$con) {
@@ -187,8 +187,8 @@ if (isset($_POST['certificate_form'])) {
     $output = "certificate.jpg";
     $white = imagecolorallocate($image, 250, 250, 250);
 
-    $rotation = 0;
-    $font_size = 50;
+    $rotation=0;
+    $font_size=50;
     $certificate_text = $row['learner_name'];
     $drFont = realpath("Helvetica.ttf");
 
