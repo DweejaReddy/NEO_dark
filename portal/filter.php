@@ -7,7 +7,7 @@ require('fpdf.php');
 
 // to store the connection
 // $con = mysqli_connect($server, $username, $password, $dbname);
-$con = mysqli_connect("localhost","ias2020","ecell123","neo21");
+$con = mysqli_connect("localhost","root","","neo21");
 
 // to check whether the db is connected or not
 if (!$con) {
@@ -30,13 +30,13 @@ if (isset($_POST['result'])) {
   
 
   if(!empty($learner_name)){
-    $query = "UPDATE neo21 ". "SET feedback='$feedback', standard='$standard' , contact = '$contact' "."WHERE learner_name = '$learner_name'";
+    $query = "UPDATE neo21 ". "SET feedback='$feedback',Emails= '$Emails', standard='$standard' , contact = '$contact' "."WHERE learner_name = '$learner_name'";
     $result = $con->query($query);
     if($result){
       echo "";
     }  
   }
-  $checkUser = "SELECT * FROM neo21 where learner_name = '$learner_name' or Emails= '$Emails'";
+  $checkUser = "SELECT * FROM neo21 where learner_name = '$learner_name' ";
   
 
   // querying the database
@@ -159,13 +159,13 @@ if (isset($_POST['certificate_form'])) {
 
   // query to find all the records having given contact details and name
   if(!empty($learner_name)){
-    $query = "UPDATE neo21 ". "SET feedback='$feedback', standard='$standard' , contact = '$contact' "."WHERE learner_name = '$learner_name'";
+    $query = "UPDATE neo21 ". "SET feedback='$feedback',Emails= '$Emails', standard='$standard' , contact = '$contact' "."WHERE learner_name = '$learner_name'";
     $result = $con->query($query);
     if($result){
       echo "";
     }  
   }
-  $checkUser = "SELECT * FROM neo21 where learner_name = '$learner_name' or Emails= '$Emails'";
+  $checkUser = "SELECT * FROM neo21 where learner_name = '$learner_name' ";
   // querying the database
   $result = mysqli_query($con, $checkUser);
   // count the no. of record found
@@ -178,7 +178,7 @@ if (isset($_POST['certificate_form'])) {
   } else {
 
     while($row = mysqli_fetch_assoc($result)){
-      if($row['Selected']=='yes'){
+      
 
     $learner_name = ucwords($learner_name);
     header('content-type:application/pdf');
@@ -187,8 +187,8 @@ if (isset($_POST['certificate_form'])) {
     $output = "certificate.jpg";
     $white = imagecolorallocate($image, 250, 250, 250);
 
-    $rotation=0;
-    $font_size=50;
+    $rotation = 0;
+    $font_size = 50;
     $certificate_text = $row['learner_name'];
     $drFont = realpath("Helvetica.ttf");
 
@@ -215,47 +215,12 @@ if (isset($_POST['certificate_form'])) {
     if (is_file($output)) {
       unlink($output);
     }
-  }
-  else{
-    $learner_name = ucwords($learner_name);
-    header('content-type:application/pdf');
-    
-    $image = @imagecreatefromjpeg("cert_template.jpg");
-    $output = "certificate.jpg";
-    $black = imagecolorallocate($image, 0, 0, 0);
-
-    $rotation=0;
-    $font_size=50;
-    $certificate_text = $row['learner_name'];
-    $drFont = realpath("Helvetica.ttf");
-
-    $txt_space = imagettfbbox($font_size, $rotation, $drFont, $certificate_text);
-    $txt_width = abs($txt_space[4] - $txt_space[0]);
-    $txt_height = abs($txt_space[3] - $txt_space[1]);
-
-    $image_width = imagesx($image);
-    $image_height = imagesy($image);
-
-    $origin_x = abs($image_width - $txt_width) / 2;
-    $origin_y = 490;
-
-    $output = $learner_name . ".jpeg";
-    imagettftext($image, $font_size, $rotation, $origin_x, $origin_y, $black, $drFont, $certificate_text);
-    imagejpeg($image, $output, 100);
-    imagedestroy($image);
-
-    $pdf = new FPDF();
-    $pdf->AddPage('L', 'A4');
-    $pdf->Image($output, 0, 0, 300, 210);
-    $pdf->Output('D', "NEO_certificate_$learner_name.pdf");
-
-    if (is_file($output)) {
-      unlink($output);
+  
+  
     }
-
   }
-}
-}
 }
 
 ?>
+
+
